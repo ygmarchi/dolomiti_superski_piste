@@ -1,0 +1,957 @@
+nr;name;altitude_from;altitude_to;length;lift_cat;lift_nr;lift_name;slope_cat;geoid;geom;rid;pid;number;duration;slopeType;regionId;skiline
+1;Armentarola;2735;1731;7300;;;;medium;;;10244;215840;1;2459;red;1;0
+2;Lagazuoi;2735;2100;2388;;;;medium;;;10863;215881;2;1023;red;1;0
+4;Falzarego;2300;2057;2183;;;;easy;;;10879;215874;4;556;blue;1;0
+5;Col Gallina;2271;2158;696;;;;easy;;;10776;215862;5;212;blue;1;0
+6;Ovest;2171;2053;510;;;;medium;;;10775;215897;6;291;red;1;0
+7;Limedes;2300;2053;1798;;;;easy;;;10188;215883;7;233;blue;1;0
+8;Falzarego Bai de Dones;;;1579;;;;medium;;;10707;215868;8;427;red;1;0
+9;Averau;2416;2151;1235;;;;easy;;;10217;215841;9;439;blue;1;0
+10;Potor;2255;1902;1431;;;;medium;;;10884;215901;10;183;red;1;0
+11;5 Torri;2255;1877;1528;;;;medium;;;10275;215834;11;524;red;1;0
+12;Scoiattoli;2255;2073;607;;;;medium;;;10395;215913;12;164;red;1;0
+14;Lino Lacedelli;2255;1902;1431;;;;medium;;;10884;215902;14;387;red;1;0
+90;Nuvolau;2416;1993;1800;;;;medium;;;10786;215891;90;300;red;1;0
+91;Raccordo Nuvolau;2416;2374;264;;;;easy;;;10409;215903;91;75;blue;1;0
+92;Skiweg Croda Negra;2413;2167;1740;;;;medium;;;10559;215915;92;356;red;1;0
+11;Collegamento Col Gallina-Lagazuoi;2255;1877;1528;;;;medium;;;76378592;76378592;11;304;red;1;0
+;Scoiattoli bassa;2255;1877;1528;;;;medium;;;76378592;76378593;;414;red;1;0
+;5 Torri - Averau;;;200;;;;medium;;;76378592;76378594;;80;red;1;0
+;Campo Scuola Socrepes;1368;1334;413;;;;easy;;;10158;215849;;112;blue;1;0
+19;Costón del Falco;1626;1466;1109;;;;easy;;;10916;215869;19;461;blue;1;0
+21;Olympia  Pocol;1673;1465;1506;;;;easy;;;10536;215894;21;408;blue;1;0
+23;Rosà;1573;1513;656;;;;easy;;;10133;215911;23;495;blue;1;0
+25;Socrepes;1552;1504;332;;;;easy;;;10864;215917;25;226;blue;1;0
+26;Redoncè;1552;1377;917;;;;easy;;;10258;215905;26;248;blue;1;0
+27;Roncato;1502;1335;1006;;;;easy;;;10321;215909;27;374;blue;1;0
+28;San Zan;1502;1373;1243;;;;easy;;;10532;215912;28;424;blue;1;0
+29;Col Tarón;1625;1493;863;;;;easy;;;10872;215864;29;347;blue;1;0
+31;Valón;2258;2092;927;;;;medium;;;10765;215929;31;649;red;1;0
+32;Canalone;2092;1661;2040;;;;medium;;;10733;215852;32;403;red;1;0
+33;Vertigine Bianca;2092;1758;871;;;;hard;;;10413;215930;33;343;black;1;0
+34;Cacciatori;1972;1757;545;;;;medium;;;10791;215848;34;1173;red;1;0
+35;Stratofana Olimpica;2304;1545;2402;;;;medium;;;10678;215895;35;516;red;1;0
+35;Olympia - Stratofana (pista Schuss);2304;2092;689;;;;hard;;;10682;215892;35;420;black;1;0
+36;Caprioli;2220;2040;832;;;;medium;;;10543;215855;36;225;red;1;0
+37;Labirinti;2092;1834;683;;;;hard;;;10795;215880;37;175;black;1;0
+38;Tofanina;2092;1674;3418;;;;easy;;;10528;215927;38;756;blue;1;0
+38;Tofanina 1;2037;1628;3418;;;;easy;;;10159;215926;38;925;blue;1;0
+40;Col Drusciè B;1776;1446;1428;;;;easy;;;10804;215861;40;631;blue;1;0
+41;Col Druscié A;1778;1453;907;;;;hard;;;10692;215860;41;781;black;1;0
+42;Raccordo Piè Tofana;1778;1675;1047;;;;easy;;;10284;215904;42;203;blue;1;0
+43;Muro de Ra Cioures;1639;1446;1437;;;;easy;;;10207;215889;43;398;blue;1;0
+44;Stries;1446;1218;1737;;;;easy;;;10865;215922;44;470;blue;1;0
+45;Skiweg Rumerlo;;;;;;;easy;;;10865;1681714202;45;;blue;1;0
+46;Bus Tofana;2836;2476;1464;;;;medium;;;10635;215846;46;396;red;1;0
+47;Cacciatori;2609;2458;680;;;;easy;;;10791;30683525;47;184;blue;1;0
+48;Canalini 1;2490;2208;863;;;;medium;;;10740;215850;48;530;red;1;0
+48;Canalini 2;2610;2459;680;;;;medium;;;13455;215847;48;184;red;1;0
+49;Pian Ra Valles;2473;2214;961;;;;easy;;;10361;215899;49;279;blue;1;0
+50;Variante Pian Ra Valles;2343;2207;394;;;;medium;;;13451;29007331;50;135;red;1;0
+51;Forcella Rossa;2311;1665;2102;;;;hard;;;10750;215876;51;377;black;1;0
+52;Ra Stradéla;;;;;;;easy;;;0;1673337767;52;;blue;1;0
+22;Prati;1664;1455;1396;;;;easy;;;0;1673337768;22;378;blue;1;0
+;collegamento Pocol Socrepes;1664;1455;1396;;;;easy;;;0;1673337769;;378;blue;1;0
+60;Faloria Normale;2121;1677;2843;;;;medium;;;10467;215873;60;1436;red;1;0
+61;Tondi Normale;2356;2133;1065;;;;medium;;;10250;215928;61;295;red;1;0
+62;Vitelli;2356;2040;1169;;;;hard;;;10381;215932;62;805;black;1;0
+62;Vitelli Bassa;2068;1760;1751;;;;medium;;;10743;215931;62;436;red;1;0
+63;Canalone Franchetti;2356;2017;1055;;;;hard;;;10689;215853;63;480;black;1;0
+64;Stratondi;2356;2056;846;;;;hard;;;10551;215921;64;310;black;1;0
+65;Slittone;2230;2092;636;;;;medium;;;10082;215916;65;172;red;1;0
+66;Bigontina;2058;1837;756;;;;hard;;;10626;215844;66;229;black;1;0
+67;Monti/Zardini;2058;1941;550;;;;medium;;;10827;215888;67;468;red;1;0
+68;Scoiattolo;2054;1816;905;;;;hard;;;0;27039414;68;245;black;1;0
+;Rio Gere - Pian de Ra Bigontina;;;0;;;;easy;;;10640;215908;;501;blue;1;0
+;  raccordo tondi slittone;;;;;;;medium;;;0;4032099;;;red;1;0
+;collegamento monte zardini bigontina;;;200;;;;medium;;;0;40320910;;80;red;1;0
+; son forca - ra bigotina;;;200;;;;medium;;;0;40320911;;80;red;1;0
+; son forca - padeon;;;200;;;;medium;;;0;40320912;;80;red;1;0
+73;Rio Gere;2217;1688;2556;;;;medium;;;10492;215907;73;773;red;1;0
+70;Padeón;2219;2019;842;;;;medium;;;10184;215898;70;446;red;1;0
+71;Creste Bianche;2193;2015;814;;;;medium;;;10736;215871;71;558;red;1;0
+72;Son Forca;2193;2035;966;;;;easy;;;10098;215918;72;286;blue;1;0
+95;A. Tomba;1525;856;2714;;;;medium;;;10260;215836;95;361;red;1;0
+96;Taiarezze;1362;1122;863;;;;easy;;;10146;215923;96;281;blue;1;0
+97;Fedo;1589;1427;835;;;;hard;;;10137;215875;97;226;black;1;0
+93;Raccordo Follina;1362;1157;1100;;;;easy;;;10522;215900;93;298;blue;1;0
+94;Malón;1589;1406;860;;;;easy;;;10389;215885;94;233;blue;1;0
+;Campo scuola Ansiei;;;50;;;;easy;;;0;13503193;;14;blue;1;0
+75;Col de Varda;2114;1858;1503;;;;medium;;;10476;215859;75;263;red;1;0
+76;La Pala;2114;1938;526;;;;hard;;;10219;215879;76;142;black;1;0
+77;Mazzorana;2114;1758;1437;;;;medium;;;10851;215886;77;137;red;1;0
+78;Loita;1870;1752;793;;;;easy;;;10754;215884;78;215;blue;1;0
+87;Donarié;1150;1054;601;;;;easy;;;10506;215872;87;163;blue;1;0
+;Prati;1150;1054;601;;;;easy;;;10506;1703176754;;163;blue;1;0
+84;Tambres;1342;1143;1524;;;;easy;;;10124;215924;84;712;blue;1;0
+;Tambres 2;;;280;;;;easy;;;10209;215925;;76;blue;1;0
+85;Ciastèl;1342;1104;966;;;;hard;;;10438;215858;85;261;black;1;0
+86;Caprioli 1;1342;1106;1174;;;;medium;;;10132;215856;86;318;red;1;0
+88;Brosolàs;1224;1208;113;;;;easy;;;10306;215845;88;411;blue;1;0
+82;Serpentina;1584;1225;1527;;;;medium;;;10399;215914;82;413;red;1;0
+83;Bianca;1584;1245;2056;;;;medium;;;10595;215843;83;1103;red;1;0
+89;Antelao;1584;1309;1037;;;;medium;;;10780;215838;89;338;red;1;0
+0;Lumen;;;;;;;medium;;;0;1700488091;0;;red;2;0
+1;Sylvester;2271;975;4950;;;;hard;;;10860;3202;1;944;black;2;0
+2;Seewiese;2271;1863;1250;;;;medium;;;10345;3277;2;736;red;2;0
+2C;Seewiese 2B;2271;1863;300;;;;medium;;;40458686;40458686;2C;82;red;2;0
+2R;Seewiese 2R;2175;1863;700;;;;medium;;;10248;3278;2R;129;red;2;0
+2B;Trasse;2271;1863;1100;;;;hard;;;10458;3279;2B;168;black;2;0
+3;Pramstall;2273;1732;2000;;;;medium;;;10264;3280;3;448;red;2;0
+4;Herrnegg;2273;975;5100;;;;hard;;;10434;3273;4;795;black;2;0
+5;Olang 2;2273;2072;1200;;;;easy;;;10437;3281;5;373;blue;2;0
+6;Plateau;2273;2025;1114;;;;easy;;;10579;3282;6;410;blue;2;0
+7;Belvedere 7;2273;2005;1200;;;;easy;;;11185;3283;7;368;blue;2;0
+8;Belvedere 8;2273;2205;1400;;;;easy;;;10073;3284;8;301;blue;2;0
+9;Furcia 9;2273;1740;2702;;;;easy;;;10092;3285;9;671;blue;2;0
+10;Sonne;2273;2067;900;;;;easy;;;10666;3286;10;261;blue;2;0
+11;Sonne 11;2273;2067;1000;;;;medium;;;10788;3287;11;215;red;2;0
+12;Furcia 12;2273;1748;2427;;;;medium;;;10808;3288;12;493;red;2;0
+14;Korer 1;1096;936;1100;;;;easy;;;10096;3289;14;333;blue;2;0
+15;Korer 2;1096;936;1100;;;;easy;;;11184;3292;15;448;blue;2;0
+16;Ried;2275;935;7000;;;;medium;;;11634;3297;16;1065;red;2;0
+16a;Ried;2275;935;10846;;;;medium;;;11630;11016427;16a;2;red;2;0
+17;Spitzhorn;2168;1819;1730;;;;easy;;;10202;3300;17;869;blue;2;0
+18;Alpen;2168;1819;1756;;;;easy;;;10079;3301;18;322;blue;2;0
+19;Pracken;1819;1635;892;;;;easy;;;10463;3304;19;277;blue;2;0
+20;Ruipa;2025;1819;890;;;;easy;;;10571;3306;20;271;blue;2;0
+21;Gassl;2072;1164;3320;;;;medium;;;10764;3314;21;731;red;2;0
+22;Arndt;2072;1662;2028;;;;medium;;;10466;3318;22;451;red;2;0
+23;World Record Piste;1680;1174;1650;;;;medium;;;10590;3319;23;647;red;2;0
+24;Lorenzi;2043;1680;1334;;;;easy;;;10758;216236;24;431;blue;2;0
+27;Hinterberg;2271;1571;2900;;;;easy;;;11632;7365549;27;444;blue;2;0
+28;Marchner;2112;1556;2280;;;;easy;;;10419;3330;28;467;blue;2;0
+29;Costa 29;1861;1738;923;;;;easy;;;10223;3333;29;183;blue;2;0
+30;Costa 30;1861;1738;790;;;;easy;;;10766;3401;30;144;blue;2;0
+31;Rara 31;1850;1678;911;;;;easy;;;10302;3336;31;329;blue;2;0
+32;Pre da Peres;2015;1738;1067;;;;medium;;;10674;3337;32;576;red;2;0
+32R;Nordica Ski Arena Pre da Peres;2015;1738;866;;;;hard;;;10166;3338;32R;350;black;2;0
+33;Rara 33;1850;1678;818;;;;medium;;;10576;3339;33;316;red;2;0
+34;Col Toron;1804;1468;1782;;;;medium;;;10611;3340;34;379;red;2;0
+36;Miara;1468;1221;1976;;;;easy;;;10679;3341;36;351;blue;2;0
+37;Cianross;1307;1203;465;;;;medium;;;10176;3342;37;126;red;2;0
+38;Corn;1307;1203;765;;;;easy;;;10227;3343;38;207;blue;2;0
+39;Pedagà;1314;1185;720;;;;easy;;;10319;3344;39;214;blue;2;0
+40;Erta;1620;1185;1610;;;;hard;;;10241;3346;40;454;black;2;0
+40B;Sorega;1620;1185;1450;;;;hard;;;0;1664176811;40B;392;black;2;0
+41;Piz de Plaies;1620;1185;2310;;;;medium;;;10519;3347;41;457;red;2;0
+45;Piculin;1620;1113;2000;;;;hard;;;10441;3348;45;703;black;2;0
+51;Riepen;1607;1245;1700;;;;easy;;;10161;3349;51;460;blue;2;0
+53;Guggenberg;1396;1215;950;;;;easy;;;10067;3350;53;257;blue;2;0
+55;Berglift;1684;1450;1200;;;;easy;;;10328;3351;55;325;blue;2;0
+57;Terenten;1400;1226;850;;;;easy;;;10280;3352;57;230;blue;2;0
+59;Antermoia;1689;1515;800;;;;easy;;;10773;3354;59;217;blue;2;0
+56;Puregg;1347;1246;441;;;;easy;;;11231;1458476;56;119;blue;2;0
+56R;Hintna Riese;1347;1246;441;;;;hard;;;11231;1458477;56R;119;black;2;0
+;Bus - Piculin;;;;;;;easy;;;40458686;40458687;;30;blue;2;0
+;Miara - Trans Bronta;;;;;;;easy;;;40458686;40458688;;30;blue;2;0
+;Collegamento Plan de Corones monte;;;;;;;easy;;;40458686;40458689;;30;blue;2;0
+;Kronplatz 2000 - Kronplatz 1;;;;;;;easy;;;40458686;404586810;;30;blue;2;0
+;Kronplatz 2000 - Kronplatz 1;;;35;;;;easy;;;40458686;404586811;;30;blue;2;0
+35;Abrusè;1569;1532;294;;;;easy;;;10372;215667;35;327;blue;3;0
+5;Arlara;2012;1862;750;;;;easy;;;10496;215669;5;344;blue;3;0
+6A;Arlara - Pralongiá  II.;2005;1923;1600;;;;easy;;;10119;215670;6A;231;blue;3;0
+7;Biok - Pralongia II;2064;1901;1550;;;;easy;;;10483;215678;7;306;blue;3;0
+1;Boé;2195;1538;3300;;;;medium;;;10432;215680;1;581;red;3;0
+;Boé - Costoratta;2071;2039;404;;;;medium;;;10478;215681;;50;red;3;0
+2;Boé - Crep de Mont;1997;1945;462;;;;medium;;;10719;215682;2;342;red;3;0
+5 B;Braia Fraida;1995;1899;839;;;;easy;;;10634;215684;5 B;292;blue;3;0
+5;Braia Fraida - Arlara;2025;1996;361;;;;easy;;;10331;215688;5;98;blue;3;0
+31;Cherz II;2086;1854;1505;;;;medium;;;10534;215689;31;407;red;3;0
+30;Cherz I;2086;1854;1205;;;;easy;;;10060;215690;30;326;blue;3;0
+8;Capanna Nera;1724;1610;971;;;;easy;;;10192;215692;8;318;blue;3;0
+8;Costes Da l'Ega;1611;1547;604;;;;easy;;;10491;215693;8;228;blue;3;0
+4 1/2;Col Alt 4 1/2;1910;1722;900;;;;easy;;;10354;215698;4 1/2;244;blue;3;0
+;Col Alt - Braia Fraida;1920;1899;246;;;;easy;;;10630;215699;;145;blue;3;0
+4;Col Alt 4;1976;1560;2300;;;;medium;;;10408;215700;4;619;red;3;0
+22 A;Costoratta;2057;1839;886;;;;medium;;;10350;215713;22 A;174;red;3;0
+2;Crep De Mont;1918;1706;1400;;;;easy;;;10301;215714;2;194;blue;3;0
+34;Pista del sole;2134;1756;2280;;;;easy;;;10351;215716;34;617;blue;3;0
+33;Forcella Incisa;1927;1758;2033;;;;easy;;;10453;215718;33;169;blue;3;0
+21;Incisa;2123;1926;1300;;;;easy;;;10239;215727;21;352;blue;3;0
+8;La Baita - Pralongiá valle;1895;1710;1400;;;;easy;;;10909;215728;8;397;blue;3;0
+6;La Brancia - Pralongiá  II;2035;1894;1594;;;;easy;;;10573;215730;6;431;blue;3;0
+32;Vizza;2086;1767;1907;;;;easy;;;10818;215735;32;339;blue;3;0
+31;Pralongiá  I (Rif. Marmotta - Planac);1875;1760;811;;;;easy;;;10061;215742;31;312;blue;3;0
+5A;Pralongiá  I - Arlara;1875;1813;308;;;;medium;;;10890;215743;5A;104;red;3;0
+8;Pralongiá  II;2131;1897;1288;;;;easy;;;10304;215745;8;253;blue;3;0
+21B;Pralongiá  - Punta Trieste;2062;2022;469;;;;easy;;;10195;215746;21B;226;blue;3;0
+21 B;Seggiovia Pralongiá;2021;1943;651;;;;easy;;;10642;215747;21 B;234;blue;3;0
+8B;Seggiovia Pralongiá - Pralongiá II;2020;1972;261;;;;easy;;;10117;215748;8B;183;blue;3;0
+1;Vallon;2523;2195;1317;;;;hard;;;10832;215764;1;531;black;3;0
+22;Boé - Campolongo;2191;1966;1023;;;;medium;;;10134;215765;22;427;red;3;0
+;Vizza - Masarei;1790;1758;100;;;;easy;;;10286;215767;;182;blue;3;0
+14;La Brancia 14;2041;1902;850;;;;easy;;;10383;609791;14;102;blue;3;0
+8:00 AM;Punta Trieste - La Baita;2020;1887;736;;;;easy;;;11239;1225713;8:00 AM;199;blue;3;0
+1:00 AM;Boé variante;2001;1759;1668;;;;medium;;;10432;64162268;1:00 AM;238;red;3;0
+5;Col Alt 5;1862;1560;2071;;;;easy;;;10408;64165076;5;561;blue;3;0
+21 A;Seggiovia Pralongiá;1943;1710;1290;;;;medium;;;10642;64461767;21 A;349;red;3;0
+21 B ;Seggiovia Pralongiá (P.ta Trieste - Rif. Marmotta);1943;1710;1290;;;;medium;;;10642;64461768;21 B ;349;red;3;0
+35;Borest - Costes da l'ega;1569;1532;294;;;;easy;;;76384898;76384898;35;197;blue;3;0
+35;Collegamento Capanna Nera;1569;1532;294;;;;easy;;;79387077;79387077;35;26;blue;3;0
+35;Crep de Munt - Boe;1569;1532;294;;;;easy;;;80533626;80533626;35;96;blue;3;0
+25;Boé - Costes da l'Ega;1453;1430;160;;;;easy;;;76362204;76362204;25;201;blue;3;0
+;Collegamento Piz Arlara - Costes dal Ega;1569;1532;294;;;;easy;;;80533626;80533627;;80;blue;3;0
+;Collegamento Pralongia 2 - Pralongia 1;1569;1532;294;;;;easy;;;80533626;80533628;;80;blue;3;0
+;Collegamento Borest - Boè;1569;1532;294;;;;easy;;;80533626;80533629;;80;blue;3;0
+;Collegamento Boè - Vallon;1569;1532;294;;;;easy;;;80533626;805336210;;80;blue;3;0
+;Collegamento Costoratta - Campolongo;1569;1532;294;;;;easy;;;80533626;805336211;;80;blue;3;0
+;Collegamento Costoratta - Cherz;1569;1532;294;;;;easy;;;80533626;805336212;;35;blue;3;0
+;Collegamento Pralongia - Crep de Munt;1569;1532;294;;;;easy;;;80533626;805336213;;35;blue;3;0
+17;Altin;1957;1397;3200;;;;medium;;;10591;215668;17;555;red;3;0
+16A;Bamby;2077;1790;1393;;;;medium;;;10741;215675;16A;321;red;3;0
+16B;Bamby 2;2073;1789;906;;;;medium;;;10088;215676;16B;411;red;3;0
+20;Braia Fraida - Roby;2022;1926;739;;;;easy;;;10891;215687;20;156;blue;3;0
+;Col d'Altin 1;1420;1403;250;;;;easy;;;10697;215701;;299;blue;3;0
+;Col d'Altin 2;1420;1403;250;;;;easy;;;10544;215702;;68;blue;3;0
+25;Doninz-Colz;1453;1430;160;;;;easy;;;10849;215709;25;114;blue;3;0
+;Colz - Doninz;1453;1430;70;;;;easy;;;10627;215710;;53;blue;3;0
+26;Doninz;1447;1403;290;;;;easy;;;10416;215717;26;228;blue;3;0
+25;Gardenaccia B;1782;1432;2040;;;;easy;;;10755;215724;25;636;blue;3;0
+26;Gardenaccia A;1782;1521;920;;;;medium;;;10828;215725;26;537;red;3;0
+17;Gran Risa;2073;1406;2193;;;;hard;;;10482;215726;17;633;black;3;0
+15 A;La Brancia - n.15;1967;1913;311;;;;easy;;;10810;215729;15 A;294;blue;3;0
+23;La Fraina;1997;1789;950;;;;medium;;;10584;215732;23;258;red;3;0
+18;Pre Dai Corf;2058;1919;900;;;;easy;;;10838;215749;18;277;blue;3;0
+19;Roby;2040;1938;600;;;;easy;;;10720;215750;19;463;blue;3;0
+24;Pista di collegamento Bamby - Altin;1790;1612;1897;;;;easy;;;10714;215755;24;343;blue;3;0
+27;Sponata;1712;1353;1810;;;;medium;;;10070;215759;27;357;red;3;0
+20;Braia Fraida intermedia - Roby;2023;1960;319;;;;easy;;;10891;64163218;20;86;blue;3;0
+20;Colz - la Rüa;;;;;;;easy;;;10891;64163219;20;56;blue;3;0
+1;Lagazuoi - Armentarola;2735;1728;8500;;;;medium;;;10500;215671;1;2301;red;3;0
+9;Armentarola;1695;1616;550;;;;easy;;;10443;215672;9;241;blue;3;0
+13;Biok;2058;1840;1300;;;;easy;;;10915;215677;13;291;blue;3;0
+10;Biok - Saraghes;2058;1840;2600;;;;easy;;;10859;215679;10;663;blue;3;0
+28;Ciampai;2016;1903;617;;;;easy;;;10756;215694;28;480;blue;3;0
+;Ciampai - La Fraina;1906;1882;200;;;;easy;;;10433;215695;;219;blue;3;0
+10:00 AM;Ciampai - n. 10;2016;1956;2200;;;;easy;;;10657;215696;10:00 AM;595;blue;3;0
+30;Codes;1993;1924;500;;;;easy;;;10274;215697;30;166;blue;3;0
+29;La Para;2044;1937;550;;;;easy;;;10700;215733;29;239;blue;3;0
+;Bordercross La Para;2039;1938;588;;;;easy;;;10695;215734;;180;blue;3;0
+9A;Pralongiá - San Cassiano;2135;1797;2829;;;;easy;;;10320;215736;9A;766;blue;3;0
+;Armentarola - Piz Sorega;1672;1607;540;;;;easy;;;10444;215738;;1020;blue;3;0
+12;Piz Sorega A;2000;1545;2109;;;;medium;;;10262;215739;12;302;red;3;0
+11;Piz Sorega B;1991;1560;3300;;;;easy;;;10316;215740;11;893;blue;3;0
+15;Roby - Bamby;2007;1800;1214;;;;easy;;;10277;215751;15;133;blue;3;0
+9;Piz Sorega B - Armentarola;1791;1680;820;;;;easy;;;10895;609792;9;485;blue;3;0
+;Traino Cavalli;1791;1680;2000;;;;easy;;;10895;609793;;541;blue;3;0
+;Piz Sorega - Bioch;;;350;;;;easy;;;10895;609794;;120;blue;3;0
+;Collegamento - Biok - La Brancia;;;150;;;;easy;;;10895;1734098043;;50;blue;3;0
+51;Baby La Crusc;1365;1330;450;;;;easy;;;10086;215673;51;179;blue;3;0
+51;Baby La Crusc - La Crusc 1;1345;1340;450;;;;easy;;;10167;215674;51;169;blue;3;0
+52;La Crusc 1;1825;1325;2450;;;;easy;;;10713;215752;52;388;blue;3;0
+52 A;La Crusc 1 variante;;;200;;;;medium;;;0;82840062;52 A;60;red;3;0
+52;La Crusc 1 - Baby La Crusc;1383;1374;100;;;;easy;;;10876;215753;52;104;blue;3;0
+53;La Crusc 2;2008;1825;1300;;;;easy;;;10246;215731;53;369;blue;3;0
+53;Pradüc - Sponata;;;;;;;easy;;;10246;1708700355;53;10;blue;3;0
+45;Col Pradat;2038;1717;1420;;;;hard;;;10323;215703;45;348;black;3;0
+46;Colfosco 1;1859;1575;1450;;;;medium;;;10169;215704;46;319;red;3;0
+46;Colfosco 2;1859;1575;1300;;;;easy;;;10734;215705;46;697;blue;3;0
+36 A;Sodlisia - Fara;1684;1669;215;;;;easy;;;10779;215708;36 A;162;blue;3;0
+50;Forcelles;2125;1845;1305;;;;medium;;;10338;215719;50;670;red;3;0
+40;Frara;2222;1664;3555;;;;easy;;;10610;215720;40;134;blue;3;0
+40;Frara - Sodlisia;1663;1623;485;;;;easy;;;10303;215722;40;392;blue;3;0
+41;Frara - Val Setus;2205;1664;408;;;;medium;;;10653;215723;41;110;red;3;0
+37;Pezzei;1669;1616;469;;;;easy;;;10801;215737;37;210;blue;3;0
+40 A;Frara variante dx;1760;1670;797;;;;easy;;;10489;215741;40 A;215;blue;3;0
+36;Sodlisia;1684;1579;925;;;;easy;;;10512;215756;36;377;blue;3;0
+49;Stella Alpina;1965;1840;608;;;;easy;;;10898;215760;49;212;blue;3;0
+41;Val Setus;2250;2149;595;;;;medium;;;10385;215762;41;161;red;3;0
+41;Gardena;2070;1961;627;;;;medium;;;10457;215763;41;212;red;3;0
+45A;Variante Col Pradat;1953;1838;650;;;;easy;;;10604;215766;45A;432;blue;3;0
+49 A;Stella Alpina variante;1965;1840;458;;;;easy;;;0;82840061;49 A;124;blue;3;0
+;Biancaneve;1631;1593;430;;;;easy;;;10355;216082;;257;blue;4;0
+;Cadepunt;1625;1586;370;;;;easy;;;10548;216083;;134;blue;4;0
+;Campo Freina;1678;1568;400;;;;medium;;;10738;216084;;140;red;4;0
+;Frea;2290;2120;1000;;;;medium;;;10364;216097;;319;red;4;0
+;Val Setus;2290;;400;;;;medium;;;10232;216098;;641;red;4;0
+;Costabella;1750;1685;500;;;;easy;;;10352;216111;;96;blue;4;0
+;Variante Costabella;;;250;;;;medium;;;0;1699970886;;68;red;4;0
+;Dantercepies ;2290;1636;3000;;;;medium;;;10068;216112;;624;red;4;0
+;Dantercepies - Risaccia ;;;500;;;;easy;;;10056;216113;;261;blue;4;0
+;Dantercepies;2290;1824;700;;;;easy;;;10259;216114;;653;blue;4;0
+;Dantercepies - Selva;;;700;;;;easy;;;10535;216115;;420;blue;4;0
+;Cir;2290;1611;3300;;;;hard;;;10418;216116;;564;black;4;0
+;Frara - Val Setus;;;500;;;;medium;;;10199;216131;;195;red;4;0
+;Larciunei;1630;291;400;;;;easy;;;10398;216144;;262;blue;4;0
+;Nives;;;350;;;;easy;;;10612;216163;;155;blue;4;0
+;Skiweg Skilift Nives - La Poza;;;1000;;;;easy;;;0;1671090329;;360;blue;4;0
+;Panorama;;;400;;;;medium;;;10842;216168;;138;red;4;0
+;Risaccia ;;;600;;;;easy;;;10777;216194;;249;blue;4;0
+;Cir-Ria;;;600;;;;medium;;;13452;216195;;161;red;4;0
+;Pista dell'Orso;;;900;;;;easy;;;10594;216196;;119;blue;4;0
+;Val;;;1150;;;;easy;;;10530;216197;;311;blue;4;0
+;Vallelunga;;;1000;;;;hard;;;10148;216217;;503;black;4;0
+;Val Setus;2284;2120;600;;;;medium;;;10279;216219;;162;red;4;0
+;Val Setus - Cir;;;300;;;;easy;;;10144;216220;;81;blue;4;0
+;Mickey Mouse;1600;1590;50;;;;easy;;;13266;12686125;;14;blue;4;0
+;Frainella;;;600;;;;medium;;;10893;29007227;;404;red;4;0
+;Dantercepies-collegamento;;;20;;;;medium;;;10068;71460569;;5;red;4;0
+;Dantercepies-collegamento;1800;1600;20;;;;medium;;;0;71489779;;18;red;4;0
+;La Ria;1985;1675;1110;;;;hard;;;10068;133378440;;310;black;4;0
+;Pista del Lupo;1675;1600;600;;;;easy;;;10068;133378441;;181;blue;4;0
+;collegamento - risaccia dantercepies;1675;1600;200;;;;easy;;;10068;133378442;;25;blue;4;0
+;Ciampinoi - Piza Pranseies;2249;2240;140;;;;medium;;;10568;216094;;179;red;4;0
+;Sef;;;2800;;;;medium;;;10245;216107;;272;red;4;0
+;Comici - Tramans;;;600;;;;medium;;;10541;216108;;162;red;4;0
+;Comici II;;;500;;;;medium;;;10580;216109;;138;red;4;0
+;Sef;;;450;;;;easy;;;10115;216110;;224;blue;4;0
+;Paprica;2239;1945;1100;;;;hard;;;11255;216117;;404;black;4;0
+;Fungeia - Campo Freina;;;400;;;;easy;;;10451;216132;;196;blue;4;0
+;Gran Paradiso;;;1000;;;;easy;;;10558;216140;;375;blue;4;0
+;Gran Paradiso - Piz Seteur;;;700;;;;easy;;;10123;216141;;189;blue;4;0
+;Piz Sella 5;;;1500;;;;medium;;;10540;216177;;581;red;4;0
+;Piz Sella 5;;;800;;;;hard;;;10662;216178;;336;black;4;0
+;Schiappen - Sella;;;1000;;;;easy;;;10767;216179;;462;blue;4;0
+;Falk;;;1900;;;;medium;;;10789;216180;;289;red;4;0
+;Spacca Ossi / Funtanes;;;1000;;;;medium;;;10187;216181;;366;red;4;0
+;Piz Seteur - Città dei Sassi;;;400;;;;easy;;;10834;216182;;95;blue;4;0
+;Plan de Gralba;;;350;;;;easy;;;10768;216185;;87;blue;4;0
+;Pudra;;;880;;;;easy;;;10656;216186;;317;blue;4;0
+;Sotsaslong;;;1400;;;;easy;;;10716;216208;;327;blue;4;0
+;Tramans;;;2000;;;;medium;;;10377;216215;;229;red;4;0
+;Piz Seteur - Comici;;;450;;;;medium;;;11183;436693;;115;red;4;0
+;Sole/Piz Seteur;;;700;;;;easy;;;13450;18442188;;90;blue;4;0
+;Collegamento Gran Paradiso - Città dei Sassi;;;1800;;;;easy;;;11633;11012113;;108;blue;4;0
+13;Paprika - Comici1;2372;2124;1166;;;;medium;;;76408625;76408625;13;83;red;4;0
+13;Piz Seteur - Gran Paradiso;2372;2124;1200;;;;medium;;;76408941;76408941;13;142;red;4;0
+13;Pista di collegamento Gran Paradiso - Sotsasslong;2124;2120;200;;;;medium;;;76408941;76408942;13;20;red;4;0
+;Città dei Sassi;;;1600;;;;easy;;;10291;216105;;296;blue;4;0
+;Martinelli;;;1220;;;;medium;;;10835;216200;;396;red;4;0
+;Sas Betit;;;750;;;;easy;;;10778;216201;;277;blue;4;0
+;Passo Sella;;;300;;;;medium;;;11182;612312;;16;red;4;0
+;Sasso Levante;;;1300;;;;medium;;;11181;612313;;46;red;4;0
+;Gabia;2290;2335;250;;;;easy;;;10847;2670548;;68;blue;4;0
+12;Rodella;2395;2224;915;;;;medium;;;10715;2670549;12;248;red;4;0
+13;Cinque Dita;2372;2124;1166;;;;medium;;;10588;2670567;13;316;red;4;0
+14;Salei;2376;2207;737;;;;medium;;;10798;2670568;14;199;red;4;0
+15;Grohmann;2320;2207;607;;;;medium;;;10487;2670573;15;164;red;4;0
+;Daniela;;;400;;;;medium;;;86251899;86251899;;108;red;4;0
+;Pradel-Salei-Grohmann;;;150;;;;medium;;;86251899;862518910;;45;red;4;0
+;Piz Seteur-Plan de Gralba;;;250;;;;medium;;;86251899;862518911;;125;red;4;0
+;Ciampinoi 3;2249;1570;2600;;;;hard;;;10852;216090;;429;black;4;0
+;Ciampinoi 4;2235;1780;2800;;;;medium;;;10684;216091;;637;red;4;0
+;Ciampinoi 5;2240;1860;1800;;;;medium;;;10278;216093;;429;red;4;0
+;Ciampinoi 6;2160;1970;1200;;;;medium;;;10846;216095;;506;red;4;0
+;Ciampinoi 6 - variante;2160;2050;450;;;;medium;;;10486;216092;;122;red;4;0
+;Piza Pranseies - Ciampinoi ;2233;2208;150;;;;medium;;;10641;216183;;130;red;4;0
+13;Collegamento Ciampinoi - Costabella  ;2372;2124;1166;;;;medium;;;79388405;79388405;13;285;red;4;0
+;Terza Punta;1858;1768;500;;;;medium;;;10812;216214;;197;red;4;0
+;Saslong;;;3400;;;;hard;;;10429;216096;;795;black;4;0
+;Saslong B;;;2300;;;;medium;;;10583;216089;;838;red;4;0
+;Sochers;;;700;;;;medium;;;10349;216206;;452;red;4;0
+;Sochers 2;;;740;;;;medium;;;10796;216207;;538;red;4;0
+;Collegamento Saslong - Pista B;;;480;;;;medium;;;10661;216222;;103;red;4;0
+13;Collegamento Saslong - Sochers;2372;2124;1200;;;;medium;;;76385532;76385532;13;445;red;4;0
+13;Collegamento Freina - Costabella;2372;2124;1166;;;;medium;;;82650797;82650797;13;76;red;4;0
+;Cendevaves 1;1700;1660;500;;;;easy;;;10524;216087;;203;blue;4;0
+;Cendevaves 2;1700;1660;500;;;;easy;;;10520;216088;;165;blue;4;0
+;Bravo;2025;1680;2500;;;;medium;;;10652;216159;;326;red;4;0
+;Alpha;2025;1650;1800;;;;hard;;;10089;216161;;533;black;4;0
+;Charly;2025;1600;3600;;;;medium;;;10566;216162;;890;red;4;0
+;Parallel 1;;;630;;;;easy;;;10267;216175;;241;blue;4;0
+;Parallel 2;;;630;;;;easy;;;10075;216176;;182;blue;4;0
+;Puntea 1;;;400;;;;easy;;;10255;216191;;154;blue;4;0
+;Puntea 2;;;400;;;;easy;;;10327;216192;;389;blue;4;0
+;Tschucky;;;400;;;;easy;;;10910;216216;;96;blue;4;0
+;Collegamento Alpha - Bravo;;;250;;;;hard;;;10830;216223;;14;black;4;0
+;Catores;2470;2280;900;;;;hard;;;10225;216085;;442;black;4;0
+;Catores - Fermeda;2520;2040;500;;;;medium;;;10095;216086;;302;red;4;0
+;Gran Pela;;;520;;;;hard;;;10848;216099;;250;black;4;0
+;Pitla Pela;;;1300;;;;medium;;;10725;216100;;352;red;4;0
+;Pitla Pela Variante;;;300;;;;medium;;;10752;216101;;158;red;4;0
+;Colraiser;2160;1557;3900;;;;medium;;;10368;216102;;494;red;4;0
+;Colraiser - Fermeda;2160;2040;1000;;;;easy;;;10614;216103;;347;blue;4;0
+;Col Raiser - Plan Da Tieja;1557;1501;1000;;;;easy;;;10233;216106;;276;blue;4;0
+;Fermeda 1;2511;2040;2600;;;;medium;;;10862;216123;;501;red;4;0
+;Fermeda 2;2511;2040;700;;;;medium;;;10509;216124;;140;red;4;0
+;Monte Fermeda - Stazione a Monte Seceda;;;530;;;;medium;;;10643;216125;;182;red;4;0
+;Fermeda - S.Cristina;;;1500;;;;easy;;;10427;216126;;224;blue;4;0
+;Plan Da Tieja;;;300;;;;easy;;;10405;216184;;46;blue;4;0
+;Resciesa - Furnes;;;3800;;;;medium;;;10081;216193;;981;red;4;0
+;Curona;2457;2280;1400;;;;easy;;;10201;216202;;440;blue;4;0
+;Seceda - Fermeda;;;600;;;;medium;;;10518;216203;;300;red;4;0
+;La Longia;1700;1250;5750;;;;medium;;;10920;216204;;642;red;4;0
+;La Longia - Furnes;2511;1700;5750;;;;medium;;;10920;1675162878;;960;red;4;0
+;Furdenan 1;;;450;;;;easy;;;10746;216133;;122;blue;4;0
+;Furdenan 2;;;450;;;;easy;;;10603;216134;;122;blue;4;0
+;Furdenan - Palmer;;;150;;;;easy;;;10425;216135;;412;blue;4;0
+;Palmer;;;300;;;;easy;;;10335;216164;;99;blue;4;0
+;Palmer - Furdenan;;;80;;;;easy;;;10690;216165;;22;blue;4;0
+;Collegamento Furdenan - cabinovia Ortisei;;;450;;;;easy;;;13448;29007228;;322;blue;4;0
+;Pilat;2005;1227;4703;;;;medium;;;111475;179233;;758;red;4;0
+;Direttissima;1463;1227;350;;;;hard;;;111475;179234;;235;black;4;0
+;Collegamento Ronc-Furdenan;;;380;;;;easy;;;0;1700815139;;103;blue;4;0
+1;Spitzbühl 1;1935;1716;1130;;;;medium;;;10300;216210;1;493;red;4;0
+2;Spitzbühl 2;1870;1750;590;;;;medium;;;10907;2857494;2;295;red;4;0
+3;Spitzbühl 3;1833;1786;450;;;;medium;;;10154;216211;3;496;red;4;0
+4;Spitzbühl 4;1935;1769;1425;;;;easy;;;11236;2857459;4;386;blue;4;0
+5;Laurin Valle - Spitzbühl;1780;1730;500;;;;medium;;;10821;2667706;5;135;red;4;0
+6;Laurin Monte - Spitzbühl;2019;1880;1250;;;;medium;;;10802;216147;6;322;red;4;0
+7;Laurin 1;2019;1810;1215;;;;easy;;;11232;216145;7;750;blue;4;0
+8;Laurin 2;2019;1770;1452;;;;medium;;;10572;1741780;8;400;red;4;0
+9;Laurin - Panorama ;2019;1980;800;;;;easy;;;10892;216146;9;147;blue;4;0
+10;Laurin - Paradiso;2019;1963;1000;;;;easy;;;10569;216174;10;349;blue;4;0
+13;Panorama 13;2010;1814;1450;;;;medium;;;10728;216169;13;376;red;4;0
+14;Panorama 14;2010;1814;1450;;;;easy;;;10127;216167;14;371;blue;4;0
+15;Panorama - Laurin;2010;1880;1000;;;;medium;;;10677;216170;15;154;red;4;0
+16;Panorama - Paradiso;2010;1921;1200;;;;easy;;;10806;216171;16;190;blue;4;0
+17;Paradiso;2122;1920;1400;;;;easy;;;10237;216173;17;192;blue;4;0
+19;Punta d'Oro 1;2219;1880;2100;;;;medium;;;10470;216137;19;601;red;4;0
+20;Punta d'Oro 2;2160;2000;1000;;;;medium;;;10404;216138;20;321;red;4;0
+;Speedtrap Punta d´oro;2249;2177;300;;;;hard;;;10191;216209;;225;black;4;0
+26;Punta d`Oro - Floralpina;1880;1680;1480;;;;medium;;;10556;216139;26;837;red;4;0
+27;Floralpina 27;1930;1700;1350;;;;easy;;;10505;216127;27;252;blue;4;0
+28;Floralpina 28;1930;1700;1300;;;;medium;;;11240;2858011;28;342;red;4;0
+29;Floralpina - Florian;1685;1680;250;;;;medium;;;11237;2858198;29;313;red;4;0
+30;Florian 1;2095;1685;2200;;;;medium;;;10238;216129;30;455;red;4;0
+31;Floralpina - Punta d`Oro;1930;1900;300;;;;medium;;;10581;216128;31;132;red;4;0
+33;Florian 2;2095;1980;430;;;;medium;;;10180;216130;33;123;red;4;0
+34;Florian - Zallinger - Floralpina;2095;1680;3900;;;;medium;;;10203;216077;34;1042;red;4;0
+36;Funivia Ortisei - Mezdí;1998;1930;520;;;;easy;;;10850;216205;36;326;blue;4;0
+38;Ludy;1856;1820;320;;;;easy;;;10403;216152;38;276;blue;4;0
+39;Mezdì;2070;1820;957;;;;hard;;;0;1661933657;39;259;black;4;0
+40;Mezdí;1860;1820;300;;;;easy;;;10172;216153;40;631;blue;4;0
+41;Mezdì - Cabinovia Ortisei;2070;2000;545;;;;easy;;;0;1661933817;41;148;blue;4;0
+43;Mezdí - Sanon 1;2070;1840;1680;;;;hard;;;10334;216155;43;817;black;4;0
+43b;Mezdí - Sanon 2;2070;1840;1680;;;;medium;;;10128;216156;43b;38;red;4;0
+44;Leo Demetz - Mezdí;1920;1820;1100;;;;easy;;;10903;216149;44;407;blue;4;0
+45;Leo Demetz - Sanon;2033;1940;500;;;;easy;;;10157;216151;45;135;blue;4;0
+46;Monte Piz - Icaro - Leo Demetz;1930;1903;250;;;;easy;;;10459;216158;46;124;blue;4;0
+47;Leo Demetz;2033;1902;700;;;;medium;;;10845;216148;47;465;red;4;0
+48;Al Sole;1872;1855;480;;;;easy;;;10539;216224;48;130;blue;4;0
+48;Al Sole - Mezdí;1935;1820;580;;;;easy;;;10869;216225;48;438;blue;4;0
+49;Leo Demetz - Monte Piz;1950;1780;1200;;;;medium;;;10704;216150;49;672;red;4;0
+50;Sanon 2;1930;1840;555;;;;easy;;;10517;216199;50;505;blue;4;0
+51;Sanon 1;1920;1840;560;;;;medium;;;10402;216198;51;255;red;4;0
+55;Monte Piz;1940;1778;1250;;;;medium;;;10194;216157;55;159;red;4;0
+57;Steger ;1950;1778;1170;;;;medium;;;10386;216212;57;417;red;4;0
+58;Steger  - Panorama;1950;1850;1180;;;;easy;;;10570;216213;58;497;blue;4;0
+59;Bamby - Steger Dellai;1970;1890;780;;;;medium;;;10782;216081;59;104;red;4;0
+60;Bamby;1970;1906;420;;;;medium;;;10564;216078;60;239;red;4;0
+65;Bamby - Euro;1970;1808;1550;;;;easy;;;10668;216079;65;156;blue;4;0
+69;Euro 69;1916;1804;770;;;;easy;;;10783;216118;69;302;blue;4;0
+70;Euro 70;1916;1804;780;;;;medium;;;10744;216119;70;475;red;4;0
+73;Eurotel 1;1872;1814;420;;;;easy;;;10525;216120;73;114;blue;4;0
+74;Scuola Sci - Eurotel 1 - Panorama;1850;1814;461;;;;easy;;;0;1661933897;74;125;blue;4;0
+75;Euro - Spitzbühl;1872;1714;1300;;;;medium;;;10882;216122;75;598;red;4;0
+76;Puflatsch Alpin;2104;1801;1800;;;;medium;;;10906;216189;76;492;red;4;0
+77;Puflatsch Race;2050;1801;1120;;;;hard;;;10206;216187;77;513;black;4;0
+78;Puflatsch Freccia;2050;1890;600;;;;hard;;;10136;216188;78;290;black;4;0
+79;Bullaccia - Strega;2060;2043;250;;;;medium;;;10149;216190;79;131;red;4;0
+80;Strega 1;2129;2042;700;;;;easy;;;10204;216142;80;190;blue;4;0
+83;Strega 2;2129;2042;700;;;;medium;;;10305;216143;83;352;red;4;0
+84;Strega - Puflatsch lunga;2042;2030;131;;;;medium;;;0;1661934272;84;35;red;4;0
+;Mezdí - Leo Demetz;;;1200;;;;medium;;;10881;216154;;255;red;4;0
+;Skilift Castelrotto;1092;1154;500;;;;easy;;;0;1666183931;;135;blue;4;0
+;Verbindung Seiser Alm - Panorama;1092;1154;500;;;;easy;;;0;1666183932;;135;blue;4;0
+;Verbindung Florian - Floralpina;1092;1154;150;;;;easy;;;0;1734097247;;68;blue;4;0
+;Paradiso - Bamby;1092;1154;500;;;;easy;;;0;1666183933;;135;blue;4;0
+;Bamby - Laurin;1092;1154;500;;;;medium;;;0;1666183934;;135;red;4;0
+;Panorama - Eurotel;1092;1154;500;;;;medium;;;0;1666183935;;135;red;4;0
+;Family Park Canazei;2258;2170;400;;;;;;;0;612217;;108;;5;0
+1;Sass Becé;2422;2062;1657;;;;medium;;;10431;216061;1;;red;5;0
+1 b;Variante Marmotte;2279;2206;353;;;;medium;;;0;609795;1 b;113;red;5;0
+2;Vernel;2416;2273;727;;;;medium;;;10269;215999;2;787;red;5;0
+2 b;Variante il Muro;2353;2255;292;;;;hard;;;10339;216045;2 b;208;black;5;0
+3;Belvedere;2273;2147;792;;;;easy;;;10112;216062;3;541;blue;5;0
+4;Gherdecia;2375;1928;2292;;;;medium;;;10813;216019;4;232;red;5;0
+4b;Variante Super red ;2355;2240;327;;;;medium;;;0;30122634;4b;84;red;5;0
+5;Col dei Rossi;2377;1929;1673;;;;medium;;;10921;216021;5;550;red;5;0
+5 b;Variante Gare ;2115;2032;257;;;;medium;;;10921;216020;5 b;550;red;5;0
+6;Pian Frataces ;2076;1726;2265;;;;medium;;;10329;216044;6;481;red;5;0
+6bis;Canazei;1761;1504;1595;;;;medium;;;0;30122635;6bis;433;red;5;0
+7;Pordoi;2230;2110;948;;;;medium;;;10391;216048;7;202;red;5;0
+8;Gonzaga ;2187;2110;507;;;;medium;;;10855;216013;8;150;red;5;0
+9;Diego;2376;1935;1359;;;;hard;;;10307;216046;9;233;black;5;0
+;Avisio Fraina ;1441;1407;220;;;;easy;;;10623;72931;;60;blue;5;0
+;Pian Frataces - Gherdecia - Sass Becè;;;200;;;;easy;;;10623;72932;;60;blue;5;0
+;Verbindung Col dei Rossi;1092;1154;500;;;;easy;;;0;1666183936;;135;blue;5;0
+11;3-Tre;2394;1721;3303;;;;medium;;;10140;216052;11;933;red;5;0
+11;3-Tre var. agonistica;1970;1838;680;;;;medium;;;10633;216051;11;212;red;5;0
+11bis;3-Tre - Mortic - Canazei ;1765;1578;978;;;;medium;;;10064;216053;11bis;765;red;5;0
+12;Rodella;2395;2224;915;;;;medium;;;10715;216055;12;505;red;5;0
+13;Cinque Dita;2372;2124;1166;;;;medium;;;10588;216033;13;481;red;5;0
+14;Salei;2376;2207;737;;;;medium;;;10798;216060;14;492;red;5;0
+15;Grohmann;2320;2207;607;;;;medium;;;10487;216014;15;444;red;5;0
+;Gabia;2290;2335;250;;;;easy;;;10847;216010;;627;blue;5;0
+;Campo scuola Col da Faè;1437;14125;130;;;;easy;;;0;74091;;35;blue;5;0
+;Col de Lin;14625;14125;300;;;;easy;;;10243;74092;;81;blue;5;0
+;Raccordo;;;;;;;;;;10494;216054;;;;5;0
+10;Ciampac - Alba;2146;1496;2200;;;;hard;;;10165;215994;10;620;black;5;0
+10:00 AM;Ciampac - Alba Variante;2146;1496;2200;;;;hard;;;10165;1701448810;10:00 AM;621;black;5;0
+11;Sella Brunech;2432;2141;1650;;;;medium;;;10687;216066;11;328;red;5;0
+12;Orsa Maggiore;2420;2110;2100;;;;medium;;;10616;216035;12;435;red;5;0
+13a;Sasso di Rocca 1;2308;2188;650;;;;medium;;;10880;216063;13a;341;red;5;0
+13b;Sasso di Rocca 2;2308;2188;650;;;;medium;;;10625;216064;13b;364;red;5;0
+14;Roseal;2312;2186;1000;;;;medium;;;10380;216057;14;271;red;5;0
+;Variante Sella Brunech;2416;2318;248;;;;hard;;;10853;216065;;67;black;5;0
+15;Delle Baite - Campo scuola;2198;2146;500;;;;easy;;;10078;216005;15;119;blue;5;0
+15;Pista di collegamento - Sella Brunech;2198;2146;500;;;;easy;;;10078;216006;15;154;blue;5;0
+15;Pista di collegamento - Sella Brunech - Orsa Maggiore;2198;2146;500;;;;easy;;;10078;216007;15;154;blue;5;0
+1a;Buffaure Panorama;2048;1340;5100;;;;medium;;;10423;216000;1a;1181;red;5;0
+1b;Vulcano;1922;1356;2000;;;;hard;;;11225;612164;1b;424;black;5;0
+2a;Valvacin;2354;2041;1640;;;;medium;;;10837;215991;2a;346;red;5;0
+2b;Valvacin B;2348;2156;747;;;;medium;;;10731;216072;2b;803;red;5;0
+3a;Salvan;;;1000;;;;easy;;;0;1662365309;3a;271;blue;5;0
+3b;Buffaure di sotto;2116;1926;730;;;;medium;;;10919;216004;3b;409;red;5;0
+4;Baby Buffaure;2061;2040;180;;;;easy;;;10130;215998;4;49;blue;5;0
+5;Pala del Geiger;2325;2106;698;;;;medium;;;10251;216036;5;134;red;5;0
+7;Aloch;1631;1322;1000;;;;hard;;;10905;215996;7;271;black;5;0
+8;Aloch Variante Checene;1570;1449;630;;;;medium;;;10735;215995;8;171;red;5;0
+1;Thoeni;2095;1415;4500;;;;medium;;;11137;74102;1;903;red;5;0
+2;Alberto Tomba;2095;1880;900;;;;hard;;;10701;74109;2;375;black;5;0
+3;Campo scuola Ciampedie;1995;1946;500;;;;easy;;;10665;74107;3;95;blue;5;0
+4;Ciampedie - Pian Pecei;1990;1800;900;;;;easy;;;11139;74108;4;290;blue;5;0
+5;Pra Martin;2095;1800;1200;;;;medium;;;10732;74110;5;542;red;5;0
+6;Cigolade;2030;1800;1500;;;;easy;;;10104;74105;6;587;blue;5;0
+7;Vajolet 2;1800;1570;2000;;;;easy;;;11246;74104;7;331;blue;5;0
+8;Vajolet 1;1575;1333;1500;;;;easy;;;10599;74106;8;576;blue;5;0
+9;Collegamento Ciampedie - Thoeni;1990;1940;500;;;;medium;;;11138;74103;9;1227;red;5;0
+20;Re Laurino;2337;1950;3150;;;;medium;;;10501;2637508;20;455;red;5;0
+20;Re Laurino;2337;1749;2650;;;;hard;;;10229;182272;20;717;black;5;0
+21;Laurino II;2100;2000;1500;;;;hard;;;10449;2639181;21;641;black;5;0
+22;Variante Frommer;1900;1730;1120;;;;medium;;;10447;182269;22;157;red;5;0
+20B;Nani Land;1767;1747;300;;;;easy;;;138685;6629824;20B;81;blue;5;0
+22A;Variante Frommer;1992;1900;1200;;;;easy;;;11241;2638985;22A;246;blue;5;0
+23;Monte Coronelle;1992;1730;860;;;;medium;;;10681;182270;23;186;red;5;0
+24;Laurin I;1747;1550;2350;;;;medium;;;10121;182268;24;636;red;5;0
+24;Laurin I;1550;1182;2790;;;;easy;;;10121;2639106;24;342;blue;5;0
+24B;Laurin I - Nani Fun Slope;1520;1270;3040;;;;easy;;;10099;6556598;24B;248;blue;5;0
+30A;Collegamento Tschein;2000;1950;500;;;;easy;;;11234;182271;30A;100;blue;5;0
+30;Tschein;1977;1900;1220;;;;medium;;;10084;182274;30;330;red;5;0
+30;Tschein;1900;1599;4800;;;;easy;;;10084;2637838;30;305;blue;5;0
+;Carezza Snowpark;1977;1670;2000;;;;easy;;;10268;182276;;541;blue;5;0
+40;Franzin;1748;1586;1900;;;;easy;;;10333;182279;40;176;blue;5;0
+40A;Variante Franzin;1650;1586;600;;;;easy;;;10654;182280;40A;635;blue;5;0
+42;Rosengarten;1928;1733;950;;;;medium;;;10456;182282;42;155;red;5;0
+42A;Variante Collegamento Paolina;1950;1900;500;;;;medium;;;10428;182283;42A;41;red;5;0
+43;Golf A;1720;1628;1820;;;;easy;;;11248;182284;43;121;blue;5;0
+43B;Golf B;1657;1634;250;;;;easy;;;10820;182285;43B;122;blue;5;0
+43A;Collegamento Golf;1880;1800;900;;;;easy;;;13395;182291;43A;244;blue;5;0
+44;Masarè;2126;1627;1100;;;;hard;;;10549;182281;44;118;black;5;0
+45;Paolina;2126;1627;1100;;;;hard;;;10448;182286;45;144;black;5;0
+45;Metà stazione Paolina;2126;1627;1300;;;;medium;;;10153;182287;45;233;red;5;0
+53;Hubertus;1767;1640;1730;;;;easy;;;10833;182292;53;314;blue;5;0
+54;Pra di Tori;1900;1762;1580;;;;hard;;;10577;182294;54;559;black;5;0
+54;Pra di Tori;2055;1900;850;;;;hard;;;10577;2639451;54;230;black;5;0
+55;Prati Latemar;2055;1900;1050;;;;medium;;;10252;182295;55;609;red;5;0
+56;Le Pope;1845;1764;600;;;;easy;;;10602;182296;56;516;blue;5;0
+46;Alpenrose;1985;1853;1324;;;;medium;;;10874;215768;46;141;red;6;0
+45;Arabba;2120;1854;1764;;;;easy;;;10460;215769;45;280;blue;6;0
+22;Avoie;1938;1778;671;;;;easy;;;10410;215773;22;536;blue;6;0
+27;Le Pale;2085;1798;1265;;;;medium;;;10729;215774;27;252;red;6;0
+40;Belvedere 1;2421;2080;1536;;;;medium;;;10163;215775;40;389;red;6;0
+41;Belvedere 2;2421;2100;1130;;;;medium;;;10332;215776;41;436;red;6;0
+21;Burz;1938;1610;1052;;;;hard;;;10265;215777;21;496;black;6;0
+29;Campolongo;2083;1839;1245;;;;medium;;;10889;215778;29;317;red;6;0
+30;Cherz 1;2087;1853;1350;;;;easy;;;10563;215779;30;212;blue;6;0
+31;Cherz 2;2087;1853;1300;;;;medium;;;10490;215780;31;275;red;6;0
+3;Fodoma;2464;1660;2740;;;;hard;;;10173;215783;3;386;black;6;0
+33;Incisa;2033;1760;2100;;;;easy;;;10683;215784;33;263;blue;6;0
+42;Maria;2225;2075;706;;;;easy;;;10527;215787;42;140;blue;6;0
+8;Mesola;2270;2111;1203;;;;easy;;;10531;215789;8;103;blue;6;0
+6;Ornella;2478;1607;3637;;;;medium;;;10164;215790;6;923;red;6;0
+7;Antercrëp;2359;2111;1004;;;;medium;;;10537;215791;7;212;red;6;0
+35;Variante Sole;2130;2090;310;;;;easy;;;11140;215794;35;84;blue;6;0
+34;Pista del Sole;2139;2759;2950;;;;easy;;;10407;215795;34;529;blue;6;0
+4;Pordoi;1870;1608;2491;;;;easy;;;10816;215796;4;348;blue;6;0
+11;Portados;21066;1940;791;;;;medium;;;10359;215797;11;176;red;6;0
+13;Variante Ornella;2320;2309;190;;;;hard;;;10150;215802;13;274;black;6;0
+39;Rutort;2083;1853;955;;;;easy;;;10507;215804;39;428;blue;6;0
+1;Salere;;;1973;;;;medium;;;10699;215805;1;647;red;6;0
+9;Sass De La Vegla;2250;2138;952;;;;easy;;;10455;215806;9;142;blue;6;0
+5;Sourasass;2356;1607;2984;;;;hard;;;10220;215810;5;303;black;6;0
+25;Plan Boè;1939;1798;163;;;;easy;;;11235;612504;25;98;blue;6;0
+26;Rientro;1800;1610;1294;;;;easy;;;10660;612505;26;344;blue;6;0
+23;Variante Avoie;1978;1763;390;;;;easy;;;10587;612506;23;99;blue;6;0
+24;Savinè;2078;1810;1021;;;;medium;;;10430;612624;24;308;red;6;0
+32;La Vizza;2095;1760;2300;;;;medium;;;0;12044650;32;6;red;6;0
+28;Variante Le Pale;1991;1874;383;;;;medium;;;0;12793027;28;104;red;6;0
+38;Rientro;1724;1609;5218;;;;easy;;;0;65186381;38;37;blue;6;0
+14;Raccordo Salere - Alpenrose;;;500;;;;medium;;;0;82279757;14;100;red;6;0
+14;Antercrep - Padon;;;200;;;;easy;;;0;82279758;14;35;blue;6;0
+50;Padon;2401;1688;1895;;;;medium;;;65429453;12045706;50;9;red;6;0
+52;Campo Scuola;1662;1476;2389;;;;easy;;;10831;215771;52;483;blue;6;0
+53;Val d'Arei;1792;1654;888;;;;easy;;;10370;215772;53;240;blue;6;0
+60;Bellunese;3265;1446;12000;;;;medium;;;10553;215798;60;642;red;6;0
+65;Finau;2950;2555;1200;;;;hard;;;10221;215813;65;297;black;6;0
+3;Bad Moos - Rotwand;;;4932;;;;easy;;;10703;183125;3;991;blue;7;0
+3a;Holzriese I;;;667;;;;hard;;;10299;183126;3a;276;black;7;0
+3b;Holzriese II;;;790;;;;hard;;;10858;183127;3b;204;black;7;0
+4;Rotwandwiesen;;;909;;;;easy;;;11210;183128;4;338;blue;7;0
+5;Porzen;;;1475;;;;medium;;;10574;183129;5;431;red;7;0
+6;Moos;;;442;;;;easy;;;10388;183130;6;177;blue;7;0
+I;Skiweg UNESCO;;;4720;;;;;;;10871;183132;I;1506;orange;7;0
+II;Popera;;;5180;;;;;;;11233;183134;II;1805;orange;7;0
+10a;Rudi Rentier Weg;;;587;;;;easy;;;11226;183135;10a;144;blue;7;0
+1;Kreuzberg;;;575;;;;medium;;;10362;183148;1;256;red;7;0
+2;Marc Girardelli;;;565;;;;medium;;;10296;183149;2;458;red;7;0
+41;Tre Cime;2092;1437;3670;;;;medium;;;11216;212527;41;650;red;7;0
+40;Stiergarten;2092;1727;2415;;;;hard;;;11215;212528;40;445;black;7;0
+11a;Kristlerhang - Sesto;;;2785;;;;hard;;;11228;216631;11a;114;black;7;0
+11b;Hahnspieleck - Sesto;;;580;;;;hard;;;10230;216632;11b;157;black;7;0
+16g;Olperls Funslope;;;300;;;;easy;;;11187;301092;16g;81;blue;7;0
+14;Mittelstation;1696;2050;1420;;;;medium;;;11198;301093;14;278;red;7;0
+15a;Uebungslift;;;1324;;;;easy;;;11227;301095;15a;239;blue;7;0
+16b;Helm II;;;956;;;;medium;;;11191;301096;16b;418;red;7;0
+16c;Steilhang;;;365;;;;hard;;;11192;301097;16c;585;black;7;0
+16d;Schuss;;;365;;;;hard;;;11193;301098;16d;183;black;7;0
+16e;Direttissima;;;463;;;;medium;;;11194;301099;16e;297;red;7;0
+16f;Olperl Weg;;;400;;;;easy;;;11195;301100;16f;69;blue;7;0
+41a;Variante Family Tre Cime;;;600;;;;easy;;;11217;301103;41a;188;blue;7;0
+4a;Kids Race;;;762;;;;medium;;;11211;301106;4a;260;red;7;0
+5a;Trainingspiste Porzen;;;1433;;;;medium;;;11208;301108;5a;361;red;7;0
+6a;Heinrich Harrer;;;531;;;;easy;;;11213;301110;6a;208;blue;7;0
+6b;Moos- Rotwand;;;344;;;;easy;;;11214;301111;6b;282;blue;7;0
+41b;Variante Family Drei Zinnen;;;630;;;;easy;;;13454;28554915;41b;77;blue;7;0
+R1;Pista da slittino Croda Rossa;;;0;;;;hard;;;30818779;30818779;R1;0;black;7;0
+11;Stiergarten - Sesto;1650;1310;2053;;;;medium;;;10412;84479488;11;556;red;7;0
+15b;Uebungslift II;;;500;;;;medium;;;11227;84479489;15b;135;red;7;0
+11;M.Elmo - Stiergarten;2050;1650;3842;;;;medium;;;10412;182959;11;1077;red;7;0
+12a;Trainingspiste Hahnspiel;;;618;;;;medium;;;11186;182960;12a;104;red;7;0
+12;Hahnspiel;;;777;;;;medium;;;10344;182961;12;164;red;7;0
+5b;Porzen Variante;;;227;;;;medium;;;11208;127218009;5b;61;red;7;0
+12b;Hahnspielhuette;;;1423;;;;medium;;;10344;71823328;12b;412;red;7;0
+41c;Moso-Sesto;1630;1320;1950;;;;easy;;;64736672;64736672;41c;5;blue;7;0
+7b;Connection Helmjet;;;660;;;;easy;;;10445;301102;7b;355;blue;7;0
+11c;Hahnspiel-Eck Variante;;;277;;;;medium;;;11202;182962;11c;200;red;7;0
+4b;Verbindung Rotwandwiesen;;;227;;;;easy;;;43607890;127218010;4b;248;blue;7;0
+13;M. Elmo - Versciaco;;;5786;;;;medium;;;10723;182963;13;683;red;7;0
+13a;"Variante ""S"" Versciaco";;;304;;;;hard;;;11199;182964;13a;49;black;7;0
+13b;Raut Versciaco;;;3310;;;;hard;;;11197;182967;13b;896;black;7;0
+18a;Skiweg Raut;;;318;;;;easy;;;10637;183110;18a;86;blue;7;0
+15;Uebungslift;;;1324;;;;easy;;;10185;183111;15;220;blue;7;0
+16;Hasenkoepfl;;;2956;;;;easy;;;11190;183112;16;550;blue;7;0
+16a;Helm;;;2221;;;;easy;;;11189;183113;16a;706;blue;7;0
+17;Wiese;;;150;;;;easy;;;10322;183114;17;41;blue;7;0
+18;Uebungshang Raut;;;456;;;;easy;;;11201;183115;18;143;blue;7;0
+10;Signaue;;;2095;;;;medium;;;10771;183131;10;374;red;7;0
+10b;Signaue II;;;2765;;;;easy;;;10771;183133;10b;748;blue;7;0
+10c;Parfal;;;2765;;;;easy;;;10771;1664181681;10c;;blue;7;0
+7;Brugger;;;330;;;;easy;;;10053;183116;7;72;blue;7;0
+III;Passo M. Croce - Signaue;1636;1400;5530;;;;;;;0;183136;III;10;orange;7;0
+13c;Familienvariante Vierschach;;;;;;;easy;;;0;1696423705;13c;;blue;7;0
+;Collegamento Versciaco;;;;;;;easy;;;0;1696423706;;;blue;7;0
+;Collegamento Versciaco - Treno;;;100;;;;easy;;;0;1696423707;;20;blue;7;0
+19;Haunold;;;3400;;;;medium;;;10160;183119;19;603;red;7;0
+19a;Haunold West;;;3394;;;;easy;;;11205;183120;19a;176;blue;7;0
+20;Doris;;;1508;;;;easy;;;10608;183121;20;227;blue;7;0
+21;Untertal;;;770;;;;medium;;;11206;183122;21;312;red;7;0
+22;Laerchen;;;670;;;;easy;;;10693;183123;22;247;blue;7;0
+23;Erschbaum;;;230;;;;easy;;;10523;183124;23;223;blue;7;0
+21a;Trainingspiste - Untertal;;;770;;;;medium;;;10514;301112;21a;157;red;7;0
+21b;Kids Ski Cross;;;195;;;;medium;;;11207;301113;21b;53;red;7;0
+19b;Mandoriese;;;314;;;;hard;;;11204;1191383;19b;85;black;7;0
+R2;Pista da slittino M. Baranci;;;0;;;;hard;;;30818780;30818780;R2;0;black;7;0
+20a;Doris II;;;1346;;;;easy;;;10608;71823329;20a;364;blue;7;0
+50e;Tabiadel;;;1032;;;;hard;;;10273;183138;50e;370;black;7;0
+50b;Europa Unita;;;1128;;;;hard;;;10469;183139;50b;208;black;7;0
+51;Campo Scuola;;;386;;;;easy;;;11229;183140;51;171;blue;7;0
+50d;Pra dei Guardiani;;;585;;;;hard;;;10357;301115;50d;158;black;7;0
+50a;Tre Picchi - Talstation;;;2035;;;;medium;;;11218;183137;50a;629;red;7;0
+50;Campo;;;3097;;;;easy;;;10171;1669967957;50;838;blue;7;0
+25;Rienz Ski School;;;400;;;;easy;;;10737;183142;25;108;blue;7;0
+26;Trenker;;;1500;;;;medium;;;10639;183143;26;406;red;7;0
+26a;Trainingspiste Trenker;;;1000;;;;medium;;;10421;183144;26a;271;red;7;0
+27;Rienz;;;1000;;;;easy;;;10337;183145;27;271;blue;7;0
+8;Waldheim I;;;700;;;;easy;;;10529;183146;8;189;blue;7;0
+9;Waldheim I/bis;;;700;;;;easy;;;10696;183147;9;189;blue;7;0
+39a;Crosspiste Kameriot;;;640;;;;easy;;;32060083;32060083;39a;173;blue;7;0
+38b;Crosspiste Sonnleiten;;;380;;;;medium;;;11269;6839580;38b;103;red;7;0
+39;Kameriot;;;640;;;;easy;;;10861;183152;39;173;blue;7;0
+38a;Sonnleiten;;;1100;;;;medium;;;10093;183151;38a;298;red;7;0
+38;Sonnleiten;;;1400;;;;medium;;;10825;183150;38;379;red;7;0
+72;Campo Scuola Doss dei Laresi;1320;1270;150;;;;easy;;;0;41729982;72;41;blue;8;0
+73;Donei;2100;1900;800;;;;medium;;;10193;184610;73;217;red;8;0
+74;Via del Bosco;1900;1100;4500;;;;easy;;;10747;184606;74;541;blue;8;0
+75;Forcella-Bombasel;2200;2150;700;;;;medium;;;10673;184607;75;431;red;8;0
+76;Collegamento Prafiorì-Costabella;1900;1880;800;;;;easy;;;10481;184608;76;152;blue;8;0
+77;Lagorai;2200;2000;1200;;;;easy;;;10050;184609;77;404;blue;8;0
+78;Dei Cirmi;2200;2000;1500;;;;easy;;;10373;184611;78;494;blue;8;0
+79;Costabella;1890;2200;1700;;;;medium;;;10142;184612;79;557;red;8;0
+80;Olimpia 1;2250;1900;1700;;;;hard;;;10485;184605;80;297;black;8;0
+81;Olimpia 2;1900;1100;3000;;;;hard;;;10422;184603;81;434;black;8;0
+87;Olimpia 3;1100;800;2500;;;;medium;;;10911;184604;87;453;red;8;0
+82;Prafiorì;2250;1760;2400;;;;medium;;;10769;184613;82;519;red;8;0
+83;Salera;2250;1760;1900;;;;medium;;;10694;184614;83;655;red;8;0
+84;Collegamento Costabella-Prafiorì;1960;1900;600;;;;easy;;;10592;184615;84;639;blue;8;0
+85;Campo Scuola Cermis;2020;1990;150;;;;easy;;;10446;184616;85;39;blue;8;0
+86;Collegamento Lagorai-Costabella;2010;1900;1200;;;;easy;;;10131;184618;86;424;blue;8;0
+88;Busabella;2200;1900;600;;;;medium;;;0;40572335;88;85;red;8;0
+88;Pista di collegamento;2200;1900;600;;;;medium;;;0;40572336;88;35;red;8;0
+88;Pista di collegamento;2200;1900;600;;;;medium;;;0;40572337;88;35;red;8;0
+88;Pista di collegamento;2200;1900;600;;;;medium;;;0;40572338;88;35;red;8;0
+88;Pista di collegamento;2200;1900;600;;;;medium;;;0;40572339;88;35;red;8;0
+40;Fiamme Oro 2;2200;1800;1600;;;;medium;;;11081;185171;40;433;red;8;0
+41;Fiamme Oro I;1800;1360;2200;;;;hard;;;11091;185172;41;595;black;8;0
+42;Mediolanum;2150;1770;2050;;;;medium;;;11094;185173;42;549;red;8;0
+42a;Piavac;2200;1770;1200;;;;hard;;;11083;185174;42a;325;black;8;0
+43;Le Cune - Campo;2200;1840;2120;;;;medium;;;11097;185175;43;574;red;8;0
+44;Lasté;2335;2000;1660;;;;medium;;;11089;185176;44;449;red;8;0
+45;Zirmes;2335;1850;3000;;;;medium;;;11101;185177;45;812;red;8;0
+51;Campo Scuola Valbona;1820;1850;180;;;;easy;;;11102;185180;51;145;blue;8;0
+40b;Skiweg Pozil;;;300;;;;easy;;;0;83612688;40b;81;blue;8;0
+40c;Alfa Fischer;;;700;;;;medium;;;0;83612687;40c;189;red;8;0
+40d;Variante Viezzena;;;650;;;;easy;;;0;83614756;40d;176;blue;8;0
+15;Ciafuli;1790;1550;700;;;;easy;;;10090;187533;15;55;blue;8;0
+14;Cervo Fun Slope;;;;;;;;;;0;1661503429;14;;orange;8;0
+11;Skiweg Campo - Fassane;;;800;;;;easy;;;10236;187545;11;173;blue;8;0
+12;Le Fassane;1970;1790;1600;;;;easy;;;10242;187534;12;325;blue;8;0
+13;Morea Snowpark;;;;;;;;;;0;1661503380;13;;orange;8;0
+16;Castelir;1790;1550;1400;;;;easy;;;10901;187544;16;399;blue;8;0
+17;Fraine;1700;1550;850;;;;easy;;;10465;187542;17;341;blue;8;0
+18;Dolomitica;1710;1550;800;;;;easy;;;10854;187543;18;136;blue;8;0
+91;Fanti;2100;2000;700;;;;easy;;;10114;184914;91;189;blue;8;0
+92;Corno Nero;2100;2000;800;;;;easy;;;10053;184915;92;217;blue;8;0
+93;Collegamento Bianconero;2000;1840;500;;;;easy;;;10053;1699027544;93;135;blue;8;0
+89;Corno Bianco;2150;1970;700;;;;medium;;;10263;184917;89;189;red;8;0
+89a;Oclini;2150;1970;700;;;;medium;;;10263;1699027462;89a;189;red;8;0
+90;La Rocca;2220;1840;1950;;;;medium;;;10058;184918;90;528;red;8;0
+94;Malga Varena;1840;1765;700;;;;easy;;;10785;184916;94;189;blue;8;0
+20;Pala di Santa;2420;1940;2300;;;;medium;;;10621;184920;20;425;red;8;0
+20a;Variante Muro Pala Santa;2250;2050;480;;;;hard;;;10152;184921;20a;539;black;8;0
+20b;Collegamento Zanggen;2070;2020;285;;;;medium;;;10325;184922;20b;219;red;8;0
+21;Variante Bosco;2120;1970;800;;;;medium;;;10210;184923;21;285;red;8;0
+22;Selftime Campanil;2060;2000;350;;;;medium;;;10442;184924;22;354;red;8;0
+23;Campanil;1940;2060;850;;;;easy;;;10632;184925;23;230;blue;8;0
+23a;Campanil 2;1940;2060;850;;;;easy;;;10632;1849210;23a;230;blue;8;0
+24;Campo Scuola Latemar;1960;2000;500;;;;easy;;;10799;184926;24;232;blue;8;0
+25;Val Todesca;1940;1750;1850;;;;medium;;;10567;184927;25;461;red;8;0
+26;Prà  Erto;1960;1800;1400;;;;hard;;;10253;184928;26;179;black;8;0
+27;Panoramica;2000;1880;1400;;;;easy;;;10475;184929;27;443;blue;8;0
+28;Agnello;2180;1750;2550;;;;medium;;;10757;184930;28;546;red;8;0
+28a;Variante Muro Agnello;2020;1900;350;;;;hard;;;10814;184931;28a;96;black;8;0
+28b;Raccordo Agnello-Tresca;2000;1820;1100;;;;medium;;;10760;184932;28b;269;red;8;0
+29;Naturale Agnello;2100;1980;750;;;;medium;;;10904;184933;29;431;red;8;0
+29a;Variante Naturale Allenamento;2180;2000;540;;;;hard;;;10607;184934;29a;206;black;8;0
+30;Tresca;2200;1980;3100;;;;medium;;;10276;184935;30;560;red;8;0
+30a;Variante Dossi;2200;2110;230;;;;hard;;;10143;184936;30a;253;black;8;0
+30b;Variante Muro Tresca;2050;1970;230;;;;hard;;;10918;184937;30b;62;black;8;0
+30c;Variante Val della Pigna;1950;1850;400;;;;medium;;;10376;184938;30c;116;red;8;0
+30d;Selftime Tresca;2060;2000;300;;;;medium;;;0;30206982;30d;81;red;8;0
+31;Residenza;2170;1850;1960;;;;medium;;;10343;184939;31;313;red;8;0
+34;Skiweg Parcheggi;1800;1750;300;;;;medium;;;0;30206983;34;81;red;8;0
+35;Cinque Nazioni;2200;1650;2650;;;;medium;;;10145;184940;35;610;red;8;0
+35a;Variante Slalom;1900;1850;460;;;;hard;;;10289;18494;35a;125;black;8;0
+36;Variante Cinque Nazioni;1930;1830;400;;;;medium;;;10794;184942;36;115;red;8;0
+37;Campo Scuola Gardoné;1722;1650;520;;;;easy;;;10396;184943;37;165;blue;8;0
+38;Torre di Pisa;2200;1650;1550;;;;hard;;;10542;184944;38;318;black;8;0
+1;Campo Scuola Eben;1661;1557;750;;;;easy;;;730;182255;1;203;blue;8;0
+2;Oberholz;2096;1590;2750;;;;medium;;;2750;182256;2;685;red;8;0
+2a;Obereggen;1830;1540;1780;;;;medium;;;1780;182257;2a;234;red;8;0
+2b;Variante Oberholz;1900;1800;450;;;;medium;;;450;182258;2b;196;red;8;0
+3;Ochsenweide;1830;1540;1700;;;;medium;;;1700;182259;3;299;red;8;0
+4;Laner;1830;1732;750;;;;easy;;;750;182260;4;278;blue;8;0
+5;Maierl;2170;1732;1640;;;;medium;;;1640;182261;5;314;red;8;0
+6;Absam;2170;1732;2750;;;;medium;;;2750;182262;6;553;red;8;0
+6a;Variante Absam;2170;2050;450;;;;medium;;;450;182263;6a;216;red;8;0
+7;Skiweg Reiterjoch;1855;1750;1150;;;;easy;;;1150;182264;7;145;blue;8;0
+8;Toler;2035;1858;1400;;;;easy;;;1400;182266;8;504;blue;8;0
+8a;Collegamento Reiteralpe;2030;1858;950;;;;easy;;;950;182267;8a;344;blue;8;0
+9;Zanggen;1860;1680;850;;;;medium;;;850;184919;9;262;red;8;0
+10;Pampeago;2030;1940;850;;;;easy;;;850;182299;10;145;blue;8;0
+9a;Zanggen 2;1860;1680;400;;;;medium;;;849;1666943231;9a;108;red;8;0
+;Pista collegamento;1860;1680;400;;;;medium;;;849;1666943232;;35;red;8;0
+;Pista collegamento;1860;1680;400;;;;medium;;;849;1666943233;;35;red;8;0
+95;Panorama;1475;1355;720;;;;easy;;;720;182469;95;195;blue;8;0
+96;Deutschnofen;1528;1399;700;;;;easy;;;700;182470;96;189;blue;8;0
+30;Baby Tognola;2140;2170;207;;;;easy;;;10644;216249;30;137;blue;9;0
+25;Rododendro;2141;1922;1460;;;;easy;;;10631;216275;25;577;blue;9;0
+20;Scandola;2072;1869;1350;;;;easy;;;10228;216278;20;622;blue;9;0
+26;Conca;2195;1970;1390;;;;easy;;;10578;216262;26;435;blue;9;0
+29;Cigolera;2109;1920;778;;;;medium;;;10712;216255;29;258;red;9;0
+28;Cima Tognola;2316;1948;1360;;;;medium;;;10439;216256;28;598;red;9;0
+36;Fantasia2000;2348;1411;5000;;;;medium;;;0;1702286381;36;660;red;9;0
+22;Tognola 1;1727;1412;1040;;;;hard;;;10106;216282;22;348;black;9;0
+22;Tognola 1;2150;1727;1680;;;;medium;;;10393;216283;22;334;red;9;0
+23;Variante 1 - 3;1727;1412;2410;;;;easy;;;10841;216286;23;350;blue;9;0
+24;Tognola 3;1921;1598;1300;;;;medium;;;10051;216284;24;547;red;9;0
+12;Bellaria;1470;1610;995;;;;easy;;;10793;216250;12;122;blue;9;0
+20;Valbonetta;1450;2000;1000;;;;easy;;;10555;216260;20;368;blue;9;0
+21;Malga Ces;1821;1607;1320;;;;easy;;;10502;216285;21;350;blue;9;0
+14;Coston;1898;1668;1050;;;;medium;;;10369;216263;14;403;red;9;0
+18;Ski Weg Coston;1976;1891;679;;;;easy;;;10839;216280;18;203;blue;9;0
+;Variante Rekord-Coston;1978;1948;193;;;;medium;;;10686;216273;;52;red;9;0
+13;Rekord;1978;1612;1350;;;;medium;;;10360;216274;13;296;red;9;0
+19;Cristiania;2351;1887;1980;;;;medium;;;10659;216264;19;351;red;9;0
+17;Sole;2219;1913;935;;;;medium;;;10065;216281;17;212;red;9;0
+16;Colbricon;1821;2226;1460;;;;medium;;;10606;1780284;16;74;red;9;0
+33;Direttissima Finale;2142;1877;753;;;;hard;;;10917;216265;33;;black;9;0
+5;Castellazzo 1;1990;2213;1250;;;;medium;;;10593;216251;5;533;red;9;0
+4;Castellazzo 2;1990;2213;995;;;;medium;;;10685;216252;4;257;red;9;0
+3;Castellazzo 3;1990;2213;1080;;;;medium;;;10420;216253;3;292;red;9;0
+61;Rolle I;2000;1900;700;;;;easy;;;10575;216276;61;310;blue;9;0
+62;Rolle II;2000;1900;750;;;;easy;;;10118;216277;62;129;blue;9;0
+;Segantini;1996;1965;260;;;;easy;;;10647;216279;;70;blue;9;0
+55;Campo Scuola Cimon;1950;2020;560;;;;easy;;;10650;216257;55;152;blue;9;0
+6;Ferrari;2011;1927;880;;;;easy;;;10214;216266;6;238;blue;9;0
+7;Ferrari II;2011;1927;473;;;;easy;;;10101;216267;7;128;blue;9;0
+30;collegamento Cimon-Ferrari;2140;2170;207;;;;easy;;;76410630;76410630;30;113;blue;9;0
+;Raccordo Ferrari;1990;1846;970;;;;easy;;;11106;2813810;;263;blue;9;0
+8;Fiamme Gialle;2185;2014;724;;;;medium;;;10824;216268;8;196;red;9;0
+11;Cimon;2185;2014;1500;;;;easy;;;10824;2162610;11;248;blue;9;0
+59;Paradiso I;2200;1880;1030;;;;hard;;;10340;216269;59;279;black;9;0
+10;Paradiso II;;;2500;;;;easy;;;10887;216270;10;;blue;9;0
+31;Col Verde 1;1955;1794;676;;;;medium;;;10234;216258;31;239;red;9;0
+31;Col Verde 2;1955;1508;2110;;;;easy;;;10139;216259;31;909;blue;9;0
+32;Prà Nasse 1;1497;1482;244;;;;easy;;;10857;216271;32;66;blue;9;0
+32;Prà Nasse 2;1497;1482;244;;;;easy;;;10071;216272;32;66;blue;9;0
+25;Gaisraste;2048;1629;4100;;;;medium;;;10781;215947;25;957;red;10;0
+20;Gitsch;2497;2203;1800;;;;medium;;;10072;215948;20;509;red;10;0
+6;Joechl;1993;1759;2900;;;;hard;;;10645;215951;6;361;black;10;0
+8;Hinterberg;2051;1820;4300;;;;medium;;;10367;215952;8;758;red;10;0
+26;Kanonenrohr;2201;2052;900;;;;medium;;;10283;215953;26;244;red;10;0
+5;Mitterling;1999;1780;1300;;;;hard;;;10400;215956;5;352;black;10;0
+21;Mitterwiese;2169;1935;2200;;;;easy;;;10256;215957;21;595;blue;10;0
+11;Panorama;2112;1983;2900;;;;easy;;;10110;215960;11;800;blue;10;0
+27;Pobist;1426;1370;1900;;;;easy;;;10698;215968;27;99;blue;10;0
+14;Restaurant;2005;1990;400;;;;easy;;;10135;215973;14;194;blue;10;0
+2;Schilling;1535;1371;1700;;;;easy;;;10440;215974;2;460;blue;10;0
+3;Schwandt;1811;1535;2200;;;;medium;;;10261;215975;3;241;red;10;0
+10;Seepiste;2100;1820;3100;;;;easy;;;10257;215976;10;1939;blue;10;0
+23b;Sergerwiese;2107;1741;1900;;;;hard;;;10375;215977;23b;240;black;10;0
+9;Sonnenhang;2100;1902;3200;;;;medium;;;10141;215980;9;1326;red;10;0
+12;Steinermandl ;2118;1976;3200;;;;hard;;;10511;215981;12;163;black;10;0
+4;Talabfahrt;2008;1374;3900;;;;medium;;;10477;215983;4;647;red;10;0
+1;Tasa;1462;1305;1400;;;;easy;;;10724;215984;1;466;blue;10;0
+23A;Wastl Huber;2049;1707;2100;;;;medium;;;43175968;40835666;23A;131;red;10;0
+13;Gimmy Fun Ride;2075;1972;1200;;;;easy;;;43175927;40864229;13;325;blue;10;0
+29;Family Slope;1624;1395;2200;;;;easy;;;0;66006220;29;595;blue;10;0
+22;Breiteben;2210;2048;1500;;;;easy;;;10664;215935;22;310;blue;10;0
+24;Nesselwiese;2107;1627;2900;;;;medium;;;10582;215936;24;1073;red;10;0
+28;Brunner ;1481;1405;2200;;;;easy;;;10753;215937;28;218;blue;10;0
+8b;Trainingspiste;2050;1870;650;;;;medium;;;10753;2159310;8b;235;red;10;0
+7;Plose Est;;;900;;;;medium;;;10116;215940;7;121;red;10;0
+7A;Baerenloch;;;900;;;;hard;;;10384;215941;7A;372;black;10;0
+12;Familienabfahrt ;;;2200;;;;easy;;;10557;215942;12;147;blue;10;0
+12:00 AM;Familienabfahrt ;;;1800;;;;medium;;;10059;215944;12:00 AM;582;red;10;0
+4;Palmschoss;;;2400;;;;medium;;;10671;215959;4;650;red;10;0
+11;Pfannspitz_1;;;2900;;;;medium;;;10055;215961;11;312;red;10;0
+11;Pfannspitz_2;;;1300;;;;medium;;;10601;215962;11;157;red;10;0
+18;Crazy Horse;;;800;;;;hard;;;10819;215963;18;217;black;10;0
+2;Plose_1 Schoenboden;;;3900;;;;easy;;;10510;215964;2;507;blue;10;0
+2;Plose Schoenboden;;;1000;;;;medium;;;10609;215965;2;271;red;10;0
+2;Plose_3;;;2000;;;;easy;;;10435;215966;2;763;blue;10;0
+8;Querfahrt;2320;2190;1000;;;;easy;;;10770;215970;8;188;blue;10;0
+15;Randötsch a sinistra;;;300;;;;easy;;;10772;215971;15;81;blue;10;0
+10;Rossalm 2;;;1000;;;;medium;;;10330;215985;10;130;red;10;0
+10;Rossalm 1;;;4800;;;;easy;;;10290;215986;10;441;blue;10;0
+9;Trainingspiste;;;2000;;;;easy;;;10356;215987;9;162;blue;10;0
+1;Trametsch ;;;8190;;;;hard;;;10314;215990;1;1357;black;10;0
+2;Erler;2200;2110;1200;;;;easy;;;11254;6496665;2;137;blue;10;0
+;Filler - Funes 1;1450;1280;500;;;;medium;;;10122;215945;;135;red;10;0
+;Filler - Funes 2;1550;1280;700;;;;easy;;;10424;215946;;189;blue;10;0
+9;Luson;;;1000;;;;easy;;;10702;215954;9;380;blue;10;0
+;Maders - Feldthurns;1160;1050;500;;;;medium;;;10545;215955;;135;red;10;0
+57;Panorama;1160;1050;800;;;;easy;;;10545;1725616071;57;135;blue;10;0
+40;Col Margherita;;;2900;;;;medium;;;10052;86630;40;746;red;11;0
+41;La VolatA;;;618;;;;hard;;;10414;186619;41;174;black;11;0
+42;Le Caviette;;;2450;;;;medium;;;10394;86631;42;530;red;11;0
+43;Raccordo del Passo;;;200;;;;easy;;;10215;86634;43;54;blue;11;0
+44;Del Passo;;;790;;;;easy;;;10493;86632;44;407;blue;11;0
+48;Campo scuola Chiesetta;;;80;;;;easy;;;0;186590;48;;blue;11;0
+49a;Le Coste A;;;1800;;;;medium;;;10561;86620;49a;487;red;11;0
+49b;Le Coste B;;;1800;;;;medium;;;10561;86623;49b;487;red;11;0
+50;Ciadin ;;;1900;;;;medium;;;10382;88228964;50;514;red;11;0
+51;Cima Uomo ;;;400;;;;medium;;;10663;187461;51;108;red;11;0
+51A;Variante Cima Uomo;;;350;;;;medium;;;0;187457;51A;95;red;11;0
+52;Nuova Cima Uomo;;;750;;;;hard;;;10624;187456;52;555;black;11;0
+53;Raccordo Ciadin - Costabella;;;355;;;;easy;;;10285;187462;53;48;blue;11;0
+54;Snowpark Ciadin ;;;1900;;;;medium;;;86633;86633;54;514;red;11;0
+55;Panorama;;;1230;;;;easy;;;10378;86625;55;244;blue;11;0
+56;Raccordo  Costabella - Ciadin;;;500;;;;easy;;;10597;86618;56;181;blue;11;0
+57;Paradiso;;;1180;;;;easy;;;10213;86624;57;319;blue;11;0
+58;Fuchiade;;;1680;;;;easy;;;10379;86617;58;171;blue;11;0
+59;Costabella;;;1380;;;;medium;;;10208;86627;59;414;red;11;0
+60;Monzoni;;;1520;;;;medium;;;10464;86636;60;473;red;11;0
+61;Skicross Monzoni;;;900;;;;medium;;;10823;613751;61;244;red;11;0
+64;Campigol;;;590;;;;easy;;;10560;86621;64;357;blue;11;0
+;raccordo monzoni;;;590;;;;easy;;;10560;86622;;160;blue;11;0
+63;Martinet;;;450;;;;easy;;;0;86626;63;122;blue;11;0
+66;Capanna Margherita;;;450;;;;easy;;;0;86628;66;244;blue;11;0
+;Snowpark Sanpe;;;110;;;;;;;0;1671870811;;;orange;11;0
+;raccordo campo scuola - chiesetta;;;;;;;;;;0;1671870812;;;orange;11;0
+;raccordo chiesetta - le coste;;;250;;;;;;;0;1671870813;;;orange;11;0
+20;Innamorati;;;11550;;;;easy;;;10526;186567;20;3126;blue;11;0
+21;Zingari;;;;;;;medium;;;0;1701938452;21;;red;11;0
+23;Laresei ;;;1700;;;;medium;;;10565;186568;23;366;red;11;0
+24;Saline;;;1004;;;;easy;;;10126;186570;24;388;blue;11;0
+25;Saline - Lago Cavia;;;794;;;;medium;;;10077;186571;25;335;red;11;0
+26;Panoramica ;;;1769;;;;medium;;;10885;186573;26;490;red;11;0
+27;Plateau;;;1700;;;;medium;;;10513;186574;27;498;red;11;0
+27A;Variante del Gigio;;;358;;;;medium;;;0;186615;27A;97;red;11;0
+29;Campo scuola Le Buse;;;271;;;;easy;;;0;186579;29;73;blue;11;0
+30;Le Buse - Molino (Rossignol);;;3925;;;;medium;;;10190;186577;30;281;red;11;0
+31;Raccordo Zingari - Lago Cavia;;;480;;;;easy;;;10310;186578;31;205;blue;11;0
+33;Col Margherita - Lago Cavia;;;2390;;;;medium;;;10726;186580;33;484;red;11;0
+28;Collegamento Laresei;;;2390;;;;easy;;;0;186581;28;647;blue;11;0
+34;pradazzo - lago cavia;;;2390;;;;easy;;;0;186583;34;647;blue;11;0
+1;Fiamme Oro 1;;;1385;;;;hard;;;10462;86603;1;364;black;11;0
+2;Fiamme Oro 2;;;2290;;;;medium;;;10108;86604;2;664;red;11;0
+2a;Canalone Tomba;;;350;;;;hard;;;0;613755;2a;95;black;11;0
+2b;Skiweg Pozil;;;300;;;;easy;;;0;613754;2b;81;blue;11;0
+2c;Alfa Fischer ;;;700;;;;medium;;;0;613757;2c;189;red;11;0
+2d;Variante Viezzena;;;650;;;;easy;;;0;613756;2d;84;blue;11;0
+2e;Aquile Fun Slope;;;950;;;;;;;187547;187547;2e;257;orange;11;0
+3;Mediolanum;;;1430;;;;medium;;;10488;86605;3;387;red;11;0
+4;Campo Scuola Valbona;1820;1850;180;;;;easy;;;10761;86602;4;49;blue;11;0
+5;Piavac;2200;1770;1200;;;;hard;;;10211;86611;5;325;black;11;0
+6;Le Cune ;2200;1840;2120;;;;medium;;;10600;86608;6;574;red;11;0
+6a;Boardercross Lusia;;;800;;;;;;;0;187546;6a;217;orange;11;0
+6b;Baby Boardercross;;;300;;;;easy;;;0;613759;6b;81;blue;11;0
+7;Direttissima;;;770;;;;hard;;;10877;86606;7;208;black;11;0
+8;Lastè;2335;2000;1660;;;;medium;;;10387;86609;8;669;red;11;0
+9;Zirmes;2335;1850;3000;;;;medium;;;10759;86610;9;564;red;11;0
+;Valbona - Piavac;2335;1850;3000;;;;medium;;;0;86612;;812;red;11;0
+;Raccordo - Cune;2335;1850;3000;;;;easy;;;0;86613;;812;blue;11;0
+1;Coldai;1912;1457;3595;;;;medium;;;10240;6550880;1;184;red;12;0
+2;Rientro;1536;979;3501;;;;medium;;;10125;6550885;2;361;red;12;0
+3;Ru de Porta;1466;1119;1743;;;;medium;;;10309;6550883;3;701;red;12;0
+5;Campo Scuola Baby;1498;1456;234;;;;easy;;;10452;6550890;5;69;blue;12;0
+;Baby Cabinovia;1498;1450;250;;;;easy;;;10406;6550875;;136;blue;12;0
+6;Nera;1787;1561;1060;;;;hard;;;10629;6550893;6;287;black;12;0
+7;Lavadoi;1785;1573;1196;;;;medium;;;10655;6550881;7;328;red;12;0
+8;Pian dei Sec;1912;1620;2955;;;;easy;;;10807;6550886;8;565;blue;12;0
+9;Baldi;1920;1787;930;;;;easy;;;10178;6550873;9;266;blue;12;0
+10;Belamont 1;1916;1712;966;;;;easy;;;10669;6550877;10;177;blue;12;0
+11;Belamont 2;1916;1712;1243;;;;medium;;;10177;6550878;11;336;red;12;0
+12;Fernazza;2080;1792;1664;;;;easy;;;10107;6550888;12;322;blue;12;0
+13;Civetta;1733;1456;1137;;;;medium;;;10805;6550879;13;379;red;12;0
+14;Azzurra;1922;1751;786;;;;easy;;;10722;6550874;14;176;blue;12;0
+15;Roa Bianca;1841;1650;2941;;;;easy;;;10914;6550884;15;201;blue;12;0
+16;Pelmo;1991;1793;765;;;;easy;;;10554;6550894;16;295;blue;12;0
+18;Campo Scuola Mariaz;1479;1444;260;;;;easy;;;10670;6550876;18;542;blue;12;0
+;Collegamento cab. Alleghe - Piani Pezzè;1450;1430;350;;;;easy;;;10797;6550882;;209;blue;12;0
+;Forcella Alleghe;1920;1841;560;;;;easy;;;10711;6550895;;179;blue;12;0
+;Fertazza - Col fioret;1920;;150;;;;easy;;;10711;6550896;;65;blue;12;0
+31;2000;1910;1520;1989;;;;medium;;;10365;187043;31;538;red;12;0
+32;Cornia;1646;1520;1287;;;;easy;;;10866;187044;32;129;blue;12;0
+33;Duel;1910;1520;1638;;;;medium;;;10311;187045;33;439;red;12;0
+48;Pelmetto;1646;1520;500;;;;easy;;;132913689;132913689;48;135;blue;12;0
+38;Foppe;1686;1378;1487;;;;hard;;;10550;187050;38;507;black;12;0
+39;Cristelin 1;1766;1590;814;;;;medium;;;10318;187057;39;276;red;12;0
+39;Cristelin 2;1608;1382;1320;;;;medium;;;10129;187058;39;901;red;12;0
+40;Lendina;1733;1381;3744;;;;easy;;;10181;187051;40;484;blue;12;0
+41;Casot;1751;1578;1177;;;;easy;;;10271;6550891;41;229;blue;12;0
+41;Casot di Pecol;;;1550;;;;easy;;;0;187052;41;420;blue;12;0
+42;Le Coste;1594;1399;1915;;;;medium;;;10287;187053;42;371;red;12;0
+43;Della Grava;1863;1604;1841;;;;easy;;;10867;6550889;43;480;blue;12;0
+45;Campo Scuola Campetto;1750;1741;138;;;;easy;;;0;187098;45;37;blue;12;0
+36;Valgranda;1865;1613;1105;;;;medium;;;10894;187099;36;480;red;12;0
+37;Laghetto;1864;1601;1192;;;;hard;;;10705;187048;37;491;black;12;0
+44;Crep;1737;1590;1006;;;;medium;;;10499;6550892;44;308;red;12;0
+44;Crep di Pecol;;;2000;;;;medium;;;0;187095;44;541;red;12;0
+46;Grava 2;1767;1649;1516;;;;medium;;;10186;187055;46;410;red;12;0
+47;Raccordo Casot di Pecol-Lendina;;;1300;;;;medium;;;0;187101;47;352;red;12;0
+47;Raccordo Casot;1595;1573;511;;;;medium;;;10873;6550887;47;206;red;12;0
+21;Salere;2077;1410;3665;;;;medium;;;10415;6550909;21;361;red;12;0
+29;Bait;1845;1413;2457;;;;medium;;;10473;6550898;29;481;red;12;0
+22;Le Ciaune ;2080;1842;1476;;;;easy;;;10102;6550908;22;414;blue;12;0
+23;Fertazza;2072;1841;1040;;;;medium;;;10908;6550904;23;473;red;12;0
+30;Cima Fertazza sx;2079;1961;390;;;;hard;;;0;6550901;30;561;black;12;0
+24;Col Fioret;1945;1872;697;;;;easy;;;10461;6550903;24;161;blue;12;0
+26;Forcella Pecol 2;1854;1703;985;;;;easy;;;10179;6550906;26;354;blue;12;0
+25;Forcella Pecol;1855;1774;519;;;;easy;;;10085;6550907;25;162;blue;12;0
+27;Fontana Fredda;1793;1708;936;;;;easy;;;10162;6550905;27;221;blue;12;0
+28;Campo Scuola S. Fosca;1397;1360;400;;;;easy;;;10254;6550900;28;108;blue;12;0
