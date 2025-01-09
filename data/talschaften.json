@@ -1,0 +1,1065 @@
+{
+    "modification": 1736422212,
+    "lastUpdate": "09.01.2025 12:30:12",
+    "items": [
+        {
+            "name": {
+                "it": "Cortina d'Ampezzo",
+                "de": "Cortina d'Ampezzo",
+                "en": "Cortina d'Ampezzo"
+            },
+            "rid": "1",
+            "pid": "",
+            "season-summer": {
+                "start": 1716588000,
+                "end": 1729375200
+            },
+            "season-winter": {
+                "start": 1732921200,
+                "end": 1746309600
+            },
+            "phone": "0436 866252",
+            "email": {
+                "tourist-board": "info@cortinamarketing.it",
+                "lifts": "info@skipasscortina.com "
+            },
+            "regionMap": "https://www.dolomitisuperski.com/file/?uuidLift=026aa008-171b-4d20-bbe9-f439b5227f4b",
+            "activeBike": 1,
+            "activeHike": 1,
+            "activeWinter": 1,
+            "skiresorts": [
+                {
+                    "rid": 1,
+                    "pid": 82,
+                    "name": {
+                        "it": "Falzarego",
+                        "de": "Falzarego",
+                        "en": "Falzarego"
+                    }
+                },
+                {
+                    "rid": 2,
+                    "pid": 83,
+                    "name": {
+                        "it": "Tofana",
+                        "de": "Tofana",
+                        "en": "Tofana"
+                    }
+                },
+                {
+                    "rid": 4,
+                    "pid": 99,
+                    "name": {
+                        "it": "Faloria",
+                        "de": "Faloria",
+                        "en": "Faloria"
+                    }
+                },
+                {
+                    "rid": 5,
+                    "pid": 100,
+                    "name": {
+                        "it": "Cristallo",
+                        "de": "Cristallo",
+                        "en": "Cristallo"
+                    }
+                },
+                {
+                    "rid": 8,
+                    "pid": 57,
+                    "name": {
+                        "it": "Auronzo",
+                        "de": "Auronzo",
+                        "en": "Auronzo"
+                    }
+                },
+                {
+                    "rid": 6,
+                    "pid": 101,
+                    "name": {
+                        "it": "Misurina",
+                        "de": "Misurina",
+                        "en": "Misurina"
+                    }
+                },
+                {
+                    "rid": 7,
+                    "pid": 56,
+                    "name": {
+                        "it": "San Vito di Cadore",
+                        "de": "San Vito di Cadore",
+                        "en": "San Vito di Cadore"
+                    }
+                },
+                {
+                    "rid": 0,
+                    "pid": 0,
+                    "name": {
+                        "it": "untitled",
+                        "de": "",
+                        "en": ""
+                    }
+                },
+                {
+                    "rid": 0,
+                    "pid": 0,
+                    "name": {
+                        "it": "untitled0",
+                        "de": "",
+                        "en": ""
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "it": "Plan de Corones",
+                "de": "Kronplatz",
+                "en": "Plan de Corones"
+            },
+            "rid": "2",
+            "pid": "",
+            "season-summer": {
+                "start": 1747432800,
+                "end": 1762642800
+            },
+            "season-winter": {
+                "start": 1732921200,
+                "end": 1745186400
+            },
+            "phone": "0474 551500",
+            "email": {
+                "tourist-board": "skirama@kronplatz.org",
+                "lifts": "skirama@kronplatz.org"
+            },
+            "regionMap": "https://www.dolomitisuperski.com/file/?uuidLift=a516e53c-b5d7-444f-963d-41bdd54a9893",
+            "activeBike": 1,
+            "activeHike": 1,
+            "activeWinter": 1,
+            "skiresorts": [
+                {
+                    "rid": 9,
+                    "pid": 104,
+                    "name": {
+                        "it": "Plan de Corones",
+                        "de": "Kronplatz",
+                        "en": "Plan de Corones"
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "it": "Alta Badia",
+                "de": "Alta Badia",
+                "en": "Alta Badia"
+            },
+            "rid": "3",
+            "pid": "",
+            "season-summer": {
+                "start": 1718402400,
+                "end": 1728165600
+            },
+            "season-winter": {
+                "start": 1733353200,
+                "end": 1743890400
+            },
+            "phone": "0471 095895",
+            "email": {
+                "tourist-board": "info@altabadia.org ",
+                "lifts": "ticket@altabadiaskipass.it"
+            },
+            "regionMap": "https://www.dolomitisuperski.com/file/?uuidLift=fb3a8bfa-66b3-43ea-a0e9-7e5cedc121de",
+            "activeBike": 1,
+            "activeHike": 1,
+            "activeWinter": 1,
+            "skiresorts": [
+                {
+                    "rid": 10,
+                    "pid": 110,
+                    "name": {
+                        "it": "Corvara",
+                        "de": "Corvara",
+                        "en": "Corvara"
+                    }
+                },
+                {
+                    "rid": 11,
+                    "pid": 111,
+                    "name": {
+                        "it": "Colfosco",
+                        "de": "Colfosco",
+                        "en": "Colfosco"
+                    }
+                },
+                {
+                    "rid": 12,
+                    "pid": 112,
+                    "name": {
+                        "it": "La Villa",
+                        "de": "La Villa",
+                        "en": "La Villa"
+                    }
+                },
+                {
+                    "rid": 13,
+                    "pid": 113,
+                    "name": {
+                        "it": "San Cassiano",
+                        "de": "San Cassiano",
+                        "en": "San Cassiano"
+                    }
+                },
+                {
+                    "rid": 14,
+                    "pid": 114,
+                    "name": {
+                        "it": "Badia",
+                        "de": "Badia",
+                        "en": "Badia"
+                    }
+                },
+                {
+                    "rid": 15,
+                    "pid": 115,
+                    "name": {
+                        "it": "Falzarego",
+                        "de": "Falzarego",
+                        "en": "Falzarego"
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "it": "Val Gardena",
+                "de": "Val Gardena-Gröden",
+                "en": "Val Gardena"
+            },
+            "rid": "4a",
+            "pid": "",
+            "season-summer": {
+                "start": 1715378400,
+                "end": 1730588400
+            },
+            "season-winter": {
+                "start": 1733353200,
+                "end": 1743890400
+            },
+            "phone": " 0471 777777",
+            "email": {
+                "tourist-board": "info@valgardena.it",
+                "lifts": "info@gardenaseiseralm.com"
+            },
+            "regionMap": "https://www.dolomitisuperski.com/file/?uuidLift=7bb6363e-2739-4880-a442-2a2cc9af2604",
+            "activeBike": 1,
+            "activeHike": 1,
+            "activeWinter": 1,
+            "skiresorts": [
+                {
+                    "rid": 19,
+                    "pid": 119,
+                    "name": {
+                        "it": "Selva - Dantercepies",
+                        "de": "Wolkenstein - Dantercepies",
+                        "en": "Selva - Dantercepies"
+                    }
+                },
+                {
+                    "rid": 21,
+                    "pid": 121,
+                    "name": {
+                        "it": "Selva - Plan de Gralba",
+                        "de": "Wolkenstein - Plan de Gralba",
+                        "en": "Selva - Plan de Gralba"
+                    }
+                },
+                {
+                    "rid": 22,
+                    "pid": 122,
+                    "name": {
+                        "it": "Selva - Passo Sella",
+                        "de": "Wolkenstein - Sellajoch",
+                        "en": "Selva - Passo Sella"
+                    }
+                },
+                {
+                    "rid": 20,
+                    "pid": 120,
+                    "name": {
+                        "it": "S. Cristina - Ciampinoi - Selva",
+                        "de": "St. Cristina - Ciampinoi - Wolkenstein",
+                        "en": "S. Cristina - Ciampinoi - Selva"
+                    }
+                },
+                {
+                    "rid": 18,
+                    "pid": 118,
+                    "name": {
+                        "it": "S. Cristina - Monte Pana",
+                        "de": "St. Cristina - Monte Pana ",
+                        "en": "S. Cristina - Monte Pana"
+                    }
+                },
+                {
+                    "rid": 16,
+                    "pid": 116,
+                    "name": {
+                        "it": "Ortisei - Resciesa - Seceda - Col Raiser - S. Cristina",
+                        "de": "St. Ulrich - Resciesa - Seceda - Col Raiser - St. Cristina",
+                        "en": "Ortisei - Resciesa - Seceda - Col Raiser - S. Cristina"
+                    }
+                },
+                {
+                    "rid": 17,
+                    "pid": 117,
+                    "name": {
+                        "it": "Ortisei - Palmer - Furdenan",
+                        "de": "St. Ulrich - Palmer - Furdenan",
+                        "en": "Ortisei - Palmer - Furdenan"
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "it": "Alpe di Siusi",
+                "de": "Seiser Alm",
+                "en": "Seiser Alm"
+            },
+            "rid": "4b",
+            "pid": "",
+            "season-summer": {
+                "start": 1715378400,
+                "end": 1730588400
+            },
+            "season-winter": {
+                "start": 1733439600,
+                "end": 1743890400
+            },
+            "phone": " 0471 709600",
+            "email": {
+                "tourist-board": "info@seiseralm.it",
+                "lifts": "info@gardenaseiseralm.com"
+            },
+            "regionMap": "https://www.dolomitisuperski.com/file/?uuidLift=28b63f87-7e45-47a1-988f-5273babb2b48",
+            "activeBike": 1,
+            "activeHike": 1,
+            "activeWinter": 1,
+            "skiresorts": [
+                {
+                    "rid": 23,
+                    "pid": 124,
+                    "name": {
+                        "it": "Alpe di Siusi",
+                        "de": "Seiser Alm",
+                        "en": "Alpe di Siusi"
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "it": "Val di Fassa",
+                "de": "Val di Fassa",
+                "en": "Val di Fassa"
+            },
+            "rid": "5a",
+            "pid": "",
+            "season-summer": {
+                "start": 1715896800,
+                "end": 1730588400
+            },
+            "season-winter": {
+                "start": 1733353200,
+                "end": 1743890400
+            },
+            "phone": "0462609500",
+            "email": {
+                "tourist-board": "info@fassa.com",
+                "lifts": "skipass@skifassa.it"
+            },
+            "regionMap": "https://www.dolomitisuperski.com/file/?uuidLift=ffd994e8-4f5c-4dfd-889c-575e73b7edf9",
+            "activeBike": 1,
+            "activeHike": 1,
+            "activeWinter": 1,
+            "skiresorts": [
+                {
+                    "rid": 26,
+                    "pid": 137,
+                    "name": {
+                        "it": "Canazei - Belvedere",
+                        "de": "Canazei - Belvedere",
+                        "en": "Canazei - Belvedere"
+                    }
+                },
+                {
+                    "rid": 27,
+                    "pid": 138,
+                    "name": {
+                        "it": "Campitello Col Rodella",
+                        "de": "Campitello Col Rodella",
+                        "en": "Campitello Col Rodella"
+                    }
+                },
+                {
+                    "rid": 25,
+                    "pid": 136,
+                    "name": {
+                        "it": "Alba - Ciampac",
+                        "de": "Alba - Ciampac",
+                        "en": "Alba - Ciampac"
+                    }
+                },
+                {
+                    "rid": 28,
+                    "pid": 139,
+                    "name": {
+                        "it": "Pozza - Buffaure",
+                        "de": "Pozza - Buffaure",
+                        "en": "Pozza - Buffaure"
+                    }
+                },
+                {
+                    "rid": 29,
+                    "pid": 140,
+                    "name": {
+                        "it": "Vigo - Catinaccio",
+                        "de": "Vigo - Catinaccio",
+                        "en": "Vigo - Catinaccio"
+                    }
+                },
+                {
+                    "rid": 31,
+                    "pid": 141,
+                    "name": {
+                        "it": "Passo Fedaia - Marmolada",
+                        "de": "Passo Fedaia - Marmolada",
+                        "en": "Passo Fedaia - Marmolada"
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "it": "Carezza",
+                "de": "Carezza",
+                "en": "Carezza"
+            },
+            "rid": "5b",
+            "pid": "",
+            "season-summer": {
+                "start": 1715896800,
+                "end": 1730588400
+            },
+            "season-winter": {
+                "start": 1733526000,
+                "end": 1743289200
+            },
+            "phone": "0471 619500",
+            "email": {
+                "tourist-board": "info@eggental.com",
+                "lifts": "skipass@skifassa.it"
+            },
+            "regionMap": "https://www.dolomitisuperski.com/file/?uuidLift=1ff8a720-c2a5-49d7-8be0-d23c2b3ff0fc",
+            "activeBike": 1,
+            "activeHike": 1,
+            "activeWinter": 1,
+            "skiresorts": [
+                {
+                    "rid": 30,
+                    "pid": 142,
+                    "name": {
+                        "it": "Carezza Dolomites",
+                        "de": "Carezza Dolomites",
+                        "en": "Carezza Dolomites"
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "it": "Arabba/Marmolada",
+                "de": "",
+                "en": ""
+            },
+            "rid": "6a",
+            "pid": "",
+            "season-summer": {
+                "start": 1718402400,
+                "end": 1726956000
+            },
+            "season-winter": {
+                "start": 1733353200,
+                "end": 1745186400
+            },
+            "phone": "043679130",
+            "email": {
+                "tourist-board": "info@arabba.it",
+                "lifts": "skipassarabba@rolmail.net"
+            },
+            "regionMap": "https://www.dolomitisuperski.com/file/?uuidLift=e634a4b6-95c3-4a78-b80d-73f439279889",
+            "activeBike": 1,
+            "activeHike": 1,
+            "activeWinter": 1,
+            "skiresorts": [
+                {
+                    "rid": 55,
+                    "pid": 143,
+                    "name": {
+                        "it": "Arabba",
+                        "de": "Arabba",
+                        "en": "Arabba"
+                    }
+                },
+                {
+                    "rid": 65,
+                    "pid": 144,
+                    "name": {
+                        "it": "Marmolada",
+                        "de": "Marmolada",
+                        "en": "Marmolada"
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "it": "3 Cime",
+                "de": "3 Zinnen",
+                "en": "3 Zinnen"
+            },
+            "rid": "7",
+            "pid": "",
+            "season-summer": {
+                "start": 1717020000,
+                "end": 1730588400
+            },
+            "season-winter": {
+                "start": 1732921200,
+                "end": 1745186400
+            },
+            "phone": "",
+            "email": {
+                "tourist-board": "info@dreizinnen.com",
+                "lifts": "info@dreizinnen.com"
+            },
+            "regionMap": "https://www.dolomitisuperski.com/file/?uuidLift=e793fe05-5549-4acc-a363-d45d1bd213e5",
+            "activeBike": 1,
+            "activeHike": 1,
+            "activeWinter": 1,
+            "skiresorts": [
+                {
+                    "rid": 32,
+                    "pid": 145,
+                    "name": {
+                        "it": "Monte Elmo - Stiergarten - Croda Rossa",
+                        "de": "Helm - Stiergarten - Rotwand",
+                        "en": "Monte Elmo - Stiergarten - Croda Rossa"
+                    }
+                },
+                {
+                    "rid": 33,
+                    "pid": 146,
+                    "name": {
+                        "it": "Monte Baranci",
+                        "de": "Haunold",
+                        "en": "Monte Baranci"
+                    }
+                },
+                {
+                    "rid": 35,
+                    "pid": 148,
+                    "name": {
+                        "it": "Dobbiaco - Rienza",
+                        "de": "Toblach - Rienz",
+                        "en": "Dobbiaco - Rienza"
+                    }
+                },
+                {
+                    "rid": 36,
+                    "pid": 149,
+                    "name": {
+                        "it": "Waldheim",
+                        "de": "Waldheim",
+                        "en": "Waldheim"
+                    }
+                },
+                {
+                    "rid": 37,
+                    "pid": 150,
+                    "name": {
+                        "it": "Passo Monte Croce",
+                        "de": "Kreuzbergpass",
+                        "en": "Passo Monte Croce"
+                    }
+                },
+                {
+                    "rid": 38,
+                    "pid": 151,
+                    "name": {
+                        "it": "Braies",
+                        "de": "Prags",
+                        "en": "Braies"
+                    }
+                },
+                {
+                    "rid": 77,
+                    "pid": 152,
+                    "name": {
+                        "it": "Padola",
+                        "de": "Padola",
+                        "en": "Padola"
+                    }
+                },
+                {
+                    "rid": 34,
+                    "pid": 147,
+                    "name": {
+                        "it": "Croda Rossa",
+                        "de": "",
+                        "en": "Croda Rossa"
+                    }
+                },
+                {
+                    "rid": 77,
+                    "pid": 152,
+                    "name": {
+                        "it": "Ski Area Val Comelico",
+                        "de": "",
+                        "en": "Ski Area Val Comelico"
+                    }
+                },
+                {
+                    "rid": 75,
+                    "pid": 301104,
+                    "name": {
+                        "it": "Stiergarten",
+                        "de": "Stiergarten",
+                        "en": "Stiergarten"
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "it": "Val di Fiemme",
+                "de": "Val di Fiemme",
+                "en": "Val di Fiemme"
+            },
+            "rid": "8a",
+            "pid": "",
+            "season-summer": {
+                "start": 1717797600,
+                "end": 1727560800
+            },
+            "season-winter": {
+                "start": 1732921200,
+                "end": 1745186400
+            },
+            "phone": "0462341419",
+            "email": {
+                "tourist-board": "info@visitfiemme.it",
+                "lifts": "fiemme-obereggen@rolmail.net"
+            },
+            "regionMap": "https://www.dolomitisuperski.com/file/?uuidLift=82f002ad-fd7a-4bc7-8315-8bf798fa1e47",
+            "activeBike": 0,
+            "activeHike": 1,
+            "activeWinter": 1,
+            "skiresorts": [
+                {
+                    "rid": 39,
+                    "pid": 153,
+                    "name": {
+                        "it": "Alpe Cermis",
+                        "de": "Alpe Cermis",
+                        "en": "Alpe Cermis"
+                    }
+                },
+                {
+                    "rid": 43,
+                    "pid": 156,
+                    "name": {
+                        "it": "Bellamonte",
+                        "de": "Bellamonte",
+                        "en": "Bellamonte"
+                    }
+                },
+                {
+                    "rid": 79,
+                    "pid": 159,
+                    "name": {
+                        "it": "Alpe Lusia",
+                        "de": "Alpe Lusia",
+                        "en": "Alpe Lusia"
+                    }
+                },
+                {
+                    "rid": 28624570,
+                    "pid": 28624570,
+                    "name": {
+                        "it": "Oclini",
+                        "de": "Oclini - Jochgrimm",
+                        "en": "Oclini"
+                    }
+                },
+                {
+                    "rid": 44,
+                    "pid": 157,
+                    "name": {
+                        "it": "Passo Lavazé",
+                        "de": "Passo Lavazé",
+                        "en": "Passo Lavazé"
+                    }
+                },
+                {
+                    "rid": 78,
+                    "pid": 158,
+                    "name": {
+                        "it": "Passo Rolle",
+                        "de": "Passo Rolle",
+                        "en": "Passo Rolle"
+                    }
+                },
+                {
+                    "rid": 40,
+                    "pid": 154,
+                    "name": {
+                        "it": "Pampeago",
+                        "de": "Pampeago",
+                        "en": "Pampeago"
+                    }
+                },
+                {
+                    "rid": 42,
+                    "pid": 155,
+                    "name": {
+                        "it": "Predazzo",
+                        "de": "Predazzo",
+                        "en": "Predazzo"
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "it": "Obereggen",
+                "de": "Obereggen",
+                "en": "Obereggen"
+            },
+            "rid": "8b",
+            "pid": "",
+            "season-summer": {
+                "start": 1717797600,
+                "end": 1728165600
+            },
+            "season-winter": {
+                "start": 1732921200,
+                "end": 1745186400
+            },
+            "phone": "0462341419",
+            "email": {
+                "tourist-board": "info@eggental.com",
+                "lifts": "fiemme-obereggen@rolmail.net"
+            },
+            "regionMap": "https://www.dolomitisuperski.com/file/?uuidLift=050dd8a4-ceb7-4c9c-bfb0-e6955688d334",
+            "activeBike": 0,
+            "activeHike": 1,
+            "activeWinter": 1,
+            "skiresorts": [
+                {
+                    "rid": 41,
+                    "pid": 160,
+                    "name": {
+                        "it": "Obereggen",
+                        "de": "Obereggen",
+                        "en": "Obereggen"
+                    }
+                },
+                {
+                    "rid": 45,
+                    "pid": 161,
+                    "name": {
+                        "it": "Nova Ponente - Monte San Pietro",
+                        "de": "Deutschnofen - Petersberg",
+                        "en": "Nova Ponente - Monte S.Pietro"
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "it": "San Martino di Castrozza/Passo Rolle",
+                "de": "San Martino di Castrozza - Passo Rolle",
+                "en": "San Martino di Castrozza - Passo Rolle"
+            },
+            "rid": "9",
+            "pid": "",
+            "season-summer": {
+                "start": 1717192800,
+                "end": 1728770400
+            },
+            "season-winter": {
+                "start": 1732921200,
+                "end": 1743289200
+            },
+            "phone": "0439 768867",
+            "email": {
+                "tourist-board": "info@sanmartino.com",
+                "lifts": "skipass@sanmartino.com"
+            },
+            "regionMap": "https://www.dolomitisuperski.com/file/?uuidLift=27490c56-4495-4253-ad95-9a6cc45cfcef",
+            "activeBike": 1,
+            "activeHike": 1,
+            "activeWinter": 1,
+            "skiresorts": [
+                {
+                    "rid": 46,
+                    "pid": 162,
+                    "name": {
+                        "it": "Passo Rolle",
+                        "de": "Passo Rolle",
+                        "en": "Passo Rolle"
+                    }
+                },
+                {
+                    "rid": 47,
+                    "pid": 163,
+                    "name": {
+                        "it": "San Martino di Castrozza - Carosello delle Malghe",
+                        "de": "San Martino di Castrozza-San Martino Gravity",
+                        "en": "San Martino di Castrozza - San Martino Gravity"
+                    }
+                },
+                {
+                    "rid": 48,
+                    "pid": 164,
+                    "name": {
+                        "it": "San Martino di Castrozza - Colverde",
+                        "de": "San Martino di Castrozza - Colverde",
+                        "en": "San Martino di Castrozza - Colverde"
+                    }
+                },
+                {
+                    "rid": 49,
+                    "pid": 165,
+                    "name": {
+                        "it": "San Martino di Castrozza - Pra delle Nasse",
+                        "de": "San Martino di Castrozza - Pra delle Nasse",
+                        "en": "San Martino di Castrozza - Pra delle Nasse"
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "it": "Rio Pusteria-Bressanone",
+                "de": "Rio Pusteria-Bressanone",
+                "en": "Rio Pusteria-Bressanone"
+            },
+            "rid": "10",
+            "pid": "",
+            "season-summer": {
+                "start": 1715205600,
+                "end": 1730502000
+            },
+            "season-winter": {
+                "start": 1733353200,
+                "end": 1745100000
+            },
+            "phone": "",
+            "email": {
+                "tourist-board": "info@gitschberg-jochtal.com",
+                "lifts": "office@gijio-ag.com"
+            },
+            "regionMap": "https://www.dolomitisuperski.com/file/?uuidLift=b8acde5c-a189-4ed7-a972-6b9dde30f1e7",
+            "activeBike": 1,
+            "activeHike": 1,
+            "activeWinter": 1,
+            "skiresorts": [
+                {
+                    "rid": 70,
+                    "pid": 179,
+                    "name": {
+                        "it": "Gitschberg - Jochtal",
+                        "de": "Gitschberg - Jochtal",
+                        "en": "Gitschberg - Jochtal"
+                    }
+                },
+                {
+                    "rid": 69,
+                    "pid": 175,
+                    "name": {
+                        "it": "Plose - Bressanone",
+                        "de": "Plose - Brixen",
+                        "en": "Plose - Bressanone"
+                    }
+                },
+                {
+                    "rid": 72,
+                    "pid": 176,
+                    "name": {
+                        "it": "Velturno",
+                        "de": "Feldthurns",
+                        "en": "Velturno"
+                    }
+                },
+                {
+                    "rid": 73,
+                    "pid": 177,
+                    "name": {
+                        "it": "Luson",
+                        "de": "Lüsen",
+                        "en": "Luson"
+                    }
+                },
+                {
+                    "rid": 74,
+                    "pid": 178,
+                    "name": {
+                        "it": "Val di Funes",
+                        "de": "Vilnösstal",
+                        "en": "Val di Funes"
+                    }
+                },
+                {
+                    "rid": 1725551496,
+                    "pid": 1725551484,
+                    "name": {
+                        "it": "Terento",
+                        "de": "Terenten",
+                        "en": "Terento"
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "it": "Alpe Lusia/San Pellegrino",
+                "de": "Alpe Lusia San Pellegrino",
+                "en": "Alpe Lusia San Pellegrino"
+            },
+            "rid": "11",
+            "pid": "",
+            "season-summer": {
+                "start": 1718402400,
+                "end": 1726956000
+            },
+            "season-winter": {
+                "start": 1732921200,
+                "end": 1743890400
+            },
+            "phone": "0462 576234",
+            "email": {
+                "tourist-board": "info@alpelusiasanpellegrino.it",
+                "lifts": "amministrazione@alpelusiasanpellegrino.it"
+            },
+            "regionMap": "https://www.dolomitisuperski.com/file/?uuidLift=f99fc47b-38f9-4529-b149-2fc44ac2dd36",
+            "activeBike": 1,
+            "activeHike": 1,
+            "activeWinter": 1,
+            "skiresorts": [
+                {
+                    "rid": 62,
+                    "pid": 168,
+                    "name": {
+                        "it": "San Pellegrino",
+                        "de": "San Pellegrino",
+                        "en": "San Pellegrino"
+                    }
+                },
+                {
+                    "rid": 0,
+                    "pid": 0,
+                    "name": {
+                        "it": "Collegamento Alpe Lusia - San Pellegrino",
+                        "de": "",
+                        "en": ""
+                    }
+                },
+                {
+                    "rid": 67,
+                    "pid": 169,
+                    "name": {
+                        "it": "Alpe Lusia/Bellamonte",
+                        "de": "Alpe Lusia/Bellamonte",
+                        "en": "Alpe Lusia/Bellamonte"
+                    }
+                },
+                {
+                    "rid": 0,
+                    "pid": 0,
+                    "name": {
+                        "it": "Bellamonte",
+                        "de": "",
+                        "en": ""
+                    }
+                }
+            ]
+        },
+        {
+            "name": {
+                "it": "Civetta",
+                "de": "Civetta",
+                "en": "Civetta"
+            },
+            "rid": "12",
+            "pid": "",
+            "season-summer": {
+                "start": 1718402400,
+                "end": 1726351200
+            },
+            "season-winter": {
+                "start": 1733353200,
+                "end": 1743289200
+            },
+            "phone": "",
+            "email": {
+                "tourist-board": "info@skicivetta.com",
+                "lifts": "info@skicivetta.com"
+            },
+            "regionMap": "https://www.dolomitisuperski.com/file/?uuidLift=8ab3ef7c-bbf3-4070-b78f-7d69c92ed92c",
+            "activeBike": 1,
+            "activeHike": 1,
+            "activeWinter": 1,
+            "skiresorts": [
+                {
+                    "rid": 51,
+                    "pid": 171,
+                    "name": {
+                        "it": "Alleghe",
+                        "de": "Alleghe",
+                        "en": "Alleghe"
+                    }
+                },
+                {
+                    "rid": 52,
+                    "pid": 172,
+                    "name": {
+                        "it": "Zoldo",
+                        "de": "Zoldo",
+                        "en": "Zoldo"
+                    }
+                },
+                {
+                    "rid": 53,
+                    "pid": 173,
+                    "name": {
+                        "it": "Palafavera",
+                        "de": "Palafavera",
+                        "en": "Palafavera"
+                    }
+                },
+                {
+                    "rid": 54,
+                    "pid": 174,
+                    "name": {
+                        "it": "Selva di Cadore",
+                        "de": "Selva di Cadore",
+                        "en": "Selva di Cadore"
+                    }
+                }
+            ]
+        }
+    ]
+}
