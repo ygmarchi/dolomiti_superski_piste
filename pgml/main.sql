@@ -388,14 +388,14 @@ BEGIN
             WHEN slope.difficulty = 'medium' THEN 2
             WHEN slope.difficulty = 'easy' THEN 1
             ELSE -3
-        END)::float / 3,
+        END)::float / (3 * 1),
         (CASE
             WHEN slope.slope_type = 'orange' THEN 4
             WHEN slope.slope_type = 'black' THEN 3
             WHEN slope.slope_type = 'red' THEN 2
             WHEN slope.slope_type = 'blue' THEN 1
             ELSE -4
-        END::float / 4),
+        END::float / (4 * 1)),
         0
     ]::float[];
 END;
@@ -459,8 +459,8 @@ select d.* from activity c
 create view pgml.slope_valid_cluster
 as select metric_data from public.slope_valid
 
-delete from  pgml.deployments where project_id = 18;
-delete from  pgml.models where project_id = 18
+delete from  pgml.deployments where project_id  in (18,19);
+delete from  pgml.models where project_id  in (18,19);
 select * from pgml.models 
 
 
@@ -476,6 +476,28 @@ SELECT pgml.train(
         "n_clusters": [2,3,4,5,6,7,8,9,10]
     }'    
 );
+
+SELECT pgml.train(
+    project_name => 'slope_cluster',  -- project name
+    task => 'clustering',                     -- task
+    algorithm => 'affinity_propagation',                            -- algorithm
+    relation_name => 'pgml.slope_valid_cluster',  -- target relation
+    y_column_name => NULL                                -- y_column_name (not needed for clustering)
+);
+
+SELECT pgml.train(
+    project_name => 'slope_cluster',  -- project name
+    task => 'clustering',                     -- task
+    algorithm => 'birch',                            -- algorithm
+    relation_name => 'pgml.slope_valid_cluster',  -- target relation
+    y_column_name => NULL,                                -- y_column_name (not needed for clustering)
+--    hyperparams => '{"n_clusters": 6}'::JSONB           -- hyperparameters as JSONB
+	search => 'grid', 
+    search_params => '{
+        "n_clusters": [2,3,4,5,6,7,8,9,10]
+    }'    
+);
+
 
 drop function get_recommendations_ai_clustering (BOOLEAN, INTEGER);
 
@@ -528,7 +550,7 @@ $$ LANGUAGE plpgsql
 
 
 select pgml.predict('slope_cluster', a.metric_data) cluster, a.* from slope_valid a
-where a.pid in (select get_recommendations_ai_clustering ('3E0A2FFC26523737E0537D1DC7D9EDDD'))
+where a.pid in (select get_recommendations_ai_clustering ('3E0A2FFC26523737E0537D1DC7D9EDDD', usual_region => true))
 
 select pgml.predict('slope_cluster', a.metric_data) cluster, a.* from slope_valid a
 join activity b on a.pid = b.id 
@@ -543,8 +565,25 @@ select pgml.predict('slope_cluster', a.metric_data), 'skied' from slope_valid a
 where a.pid in (select id from activity where persona_guid = '811767B26C8824B4E053898FBA2534D5')
 
 
-select distinct region_id from slope 
-order by 1
+select * FROM pgml.train('slope_reduction', 'decomposition', 'pgml.slope_valid_cluster', hyperparams => '{"n_components": 2}');
 
-select distinct region_id from region 
-order by 1
+
+select pgml.predict('slope_cluster', a.metric_data) cluster, pgml.decompose('slope_reduction', a.metric_data::vector) coord from slope_valid a
+
+select slope_type, count (*) from slope_valid a
+group by slope_type 
+
+ select get_recommendations_ai_clustering ('3E0A2FFC26523737E0537D1DC7D9EDDD', usual_region => true;
+ 
+select pid, name, slope_type, length, height_difference, duration, coord[1], x from (
+select *, rank () over (order by coord[1] desc) x from (
+select *, pgml.decompose('slope_reduction', a.metric_data::vector) coord from slope_valid a
+) b) c
+where x <= 5
+
+select pid, name, slope_type, length, height_difference, duration, coord[2], y from (
+select *, rank () over (order by coord[2] desc) y from (
+select *, pgml.decompose('slope_reduction', a.metric_data::vector) coord from slope_valid a
+) b) c
+where y <= 5
+
