@@ -286,12 +286,16 @@ where a.id in (select get_recommendations_ai_habit ())
  * 
  * ---------------------------------------------- 
  */ 
+select count (*) from (
+SELECT DISTINCT (persona_guid) FROM activity) a
 
 create table public."document" (
 	id serial,
 	name varchar(256),
 	content jsonb
 )
+
+select * from "document" 
 
 -- docker cp data\pistebasis.json c101b5be8b3f:/tmp/
 insert into public."document" (name, "content") values ('pistebasis', pg_read_file('/tmp/pistebasis.json')::jsonb)
@@ -345,7 +349,7 @@ select region ->> 'rid' region_id
 from (
 select jsonb_path_query (content, '$.items[*]') as region from document where name = 'talschaften') a
 
-
+select * from region 
 
 
  /* 
@@ -399,6 +403,7 @@ $$;
 
 alter table slope_valid add column metric_data FLOAT[];
 update slope_valid a set metric_data = slope_metric_data (a.*);
+select * from slope_valid 
 
 DROP FUNCTION get_recommendations_ni(text,boolean,integer) 
 
@@ -437,8 +442,8 @@ end;
 $$ LANGUAGE plpgsql
 
 
-select * from slope_valid a
-where a.pid in (select get_recommendations_ni ('811767B26C8824B4E053898FBA2534D5', true, true))
+select pgml.predict('slope_cluster', a.metric_data) cluster, a.* from slope_valid a
+where a.pid in (select get_recommendations_ni ('3E0A2FFC26523737E0537D1DC7D9EDDD', usual_region => true))
 
 select d.* from activity c 
 	join slope_valid d on c.id = d.pid
@@ -454,13 +459,22 @@ select d.* from activity c
 create view pgml.slope_valid_cluster
 as select metric_data from public.slope_valid
 
+delete from  pgml.deployments where project_id = 18;
+delete from  pgml.models where project_id = 18
+select * from pgml.models 
+
+
 SELECT pgml.train(
     project_name => 'slope_cluster',  -- project name
     task => 'clustering',                     -- task
     algorithm => 'kmeans',                            -- algorithm
     relation_name => 'pgml.slope_valid_cluster',  -- target relation
     y_column_name => NULL,                                -- y_column_name (not needed for clustering)
-    hyperparams => '{"n_clusters": 10}'::JSONB           -- hyperparameters as JSONB
+--    hyperparams => '{"n_clusters": 6}'::JSONB           -- hyperparameters as JSONB
+	search => 'grid', 
+    search_params => '{
+        "n_clusters": [2,3,4,5,6,7,8,9,10]
+    }'    
 );
 
 drop function get_recommendations_ai_clustering (BOOLEAN, INTEGER);
@@ -513,8 +527,13 @@ end;
 $$ LANGUAGE plpgsql
 
 
-select a.* from slope_valid a
-where a.pid in (select get_recommendations_ai_clustering ('811767B26C8824B4E053898FBA2534D5'))
+select pgml.predict('slope_cluster', a.metric_data) cluster, a.* from slope_valid a
+where a.pid in (select get_recommendations_ai_clustering ('3E0A2FFC26523737E0537D1DC7D9EDDD'))
+
+select pgml.predict('slope_cluster', a.metric_data) cluster, a.* from slope_valid a
+join activity b on a.pid = b.id 
+where b.persona_guid = 'D2E3F95DB94873ACE053898FBA25347A'
+order by slope_type
 
 
 select pgml.predict('slope_cluster', a.metric_data), 'suggested' from slope_valid a

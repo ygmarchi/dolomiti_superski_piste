@@ -1,7 +1,2 @@
-pgml
-numpy
-scipy
-scikit-learn
-pandas
 matplotlib
 psycopg2
