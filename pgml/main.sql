@@ -388,14 +388,14 @@ BEGIN
             WHEN slope.difficulty = 'medium' THEN 2
             WHEN slope.difficulty = 'easy' THEN 1
             ELSE -3
-        END)::float / (3 * 1),
+        END)::float / (3 * 2.5),
         (CASE
             WHEN slope.slope_type = 'orange' THEN 4
             WHEN slope.slope_type = 'black' THEN 3
             WHEN slope.slope_type = 'red' THEN 2
             WHEN slope.slope_type = 'blue' THEN 1
             ELSE -4
-        END::float / (4 * 1)),
+        END::float / (4 * 2.5)),
         0
     ]::float[];
 END;
@@ -461,6 +461,7 @@ as select metric_data from public.slope_valid
 
 delete from  pgml.deployments where project_id  in (18,19);
 delete from  pgml.models where project_id  in (18,19);
+
 select * from pgml.models 
 
 
@@ -491,10 +492,23 @@ SELECT pgml.train(
     algorithm => 'birch',                            -- algorithm
     relation_name => 'pgml.slope_valid_cluster',  -- target relation
     y_column_name => NULL,                                -- y_column_name (not needed for clustering)
+    hyperparams => '{"n_clusters": 6}'::JSONB           -- hyperparameters as JSONB
+--	search => 'grid', 
+--    search_params => '{
+ --       "n_clusters": [2,3,4,5,6,7,8,9,10]
+--    }'    
+);
+
+SELECT pgml.train(
+    project_name => 'slope_cluster',  -- project name
+    task => 'clustering',                     -- task
+    algorithm => 'mini_batch_kmeans',                            -- algorithm
+    relation_name => 'pgml.slope_valid_cluster',  -- target relation
+    y_column_name => NULL,                                -- y_column_name (not needed for clustering)
 --    hyperparams => '{"n_clusters": 6}'::JSONB           -- hyperparameters as JSONB
 	search => 'grid', 
     search_params => '{
-        "n_clusters": [2,3,4,5,6,7,8,9,10]
+       "n_clusters": [2,3,4,5,6,7,8,9,10]
     }'    
 );
 
@@ -586,4 +600,49 @@ select *, rank () over (order by coord[2] desc) y from (
 select *, pgml.decompose('slope_reduction', a.metric_data::vector) coord from slope_valid a
 ) b) c
 where y <= 5
+
+
+select distinct cluster, avg (height_difference) over (partition by cluster) avg_height_difference from (
+select pgml.predict('slope_cluster', a.metric_data) cluster, a.* from slope_valid a) b
+order by cluster
+
+select distinct cluster
+	, avg (height_difference) over (partition by cluster) avg_height_difference 
+	, min (height_difference) over (partition by cluster) min_height_difference 
+	, max (height_difference) over (partition by cluster) max_height_difference 
+	from (
+select pgml.predict('slope_cluster', a.metric_data) cluster, a.* from slope_valid a) b
+order by cluster
+
+select distinct cluster
+	, avg (length) over (partition by cluster) avg_length 
+	, min (length) over (partition by cluster) min_length 
+	, max (length) over (partition by cluster) max_length 
+	from (
+select pgml.predict('slope_cluster', a.metric_data) cluster, a.* from slope_valid a) b
+order by cluster
+
+
+select distinct difficulty
+	, count (*) over (partition by difficulty) cnt_height_difference 
+	, avg (height_difference) over (partition by difficulty) avg_height_difference 
+	, min (height_difference) over (partition by difficulty) min_height_difference 
+	, max (height_difference) over (partition by difficulty) max_height_difference 
+	from (
+select a.* from slope_valid a) b
+order by difficulty;
+
+select * from slope_valid  where height_difference = 5
+
+select distinct difficulty
+	, avg (length) over (partition by difficulty) avg_length 
+	, min (length) over (partition by difficulty) min_length 
+	, max (length) over (partition by difficulty) max_length 
+	from (
+select a.* from slope_valid a) b
+order by difficulty
+
+select distinct cluster, slope_type, difficulty, count (*) over (partition by cluster, slope_type, difficulty) cnt from (
+select pgml.predict('slope_cluster', a.metric_data) cluster, a.* from slope_valid a) b
+order by cluster, slope_type, difficulty
 
