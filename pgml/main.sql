@@ -388,14 +388,14 @@ BEGIN
             WHEN slope.difficulty = 'medium' THEN 2
             WHEN slope.difficulty = 'easy' THEN 1
             ELSE -3
-        END)::float / (3 * 1),
+        END)::float / (3 * 2.5),
         (CASE
             WHEN slope.slope_type = 'orange' THEN 4
             WHEN slope.slope_type = 'black' THEN 3
             WHEN slope.slope_type = 'red' THEN 2
             WHEN slope.slope_type = 'blue' THEN 1
             ELSE -4
-        END::float / (4 * 1)),
+        END::float / (4 * 2.5)),
         0
     ]::float[];
 END;
@@ -461,6 +461,7 @@ as select metric_data from public.slope_valid
 
 delete from  pgml.deployments where project_id  in (18,19);
 delete from  pgml.models where project_id  in (18,19);
+
 select * from pgml.models 
 
 
@@ -491,10 +492,23 @@ SELECT pgml.train(
     algorithm => 'birch',                            -- algorithm
     relation_name => 'pgml.slope_valid_cluster',  -- target relation
     y_column_name => NULL,                                -- y_column_name (not needed for clustering)
+    hyperparams => '{"n_clusters": 6}'::JSONB           -- hyperparameters as JSONB
+--	search => 'grid', 
+--    search_params => '{
+ --       "n_clusters": [2,3,4,5,6,7,8,9,10]
+--    }'    
+);
+
+SELECT pgml.train(
+    project_name => 'slope_cluster',  -- project name
+    task => 'clustering',                     -- task
+    algorithm => 'mini_batch_kmeans',                            -- algorithm
+    relation_name => 'pgml.slope_valid_cluster',  -- target relation
+    y_column_name => NULL,                                -- y_column_name (not needed for clustering)
 --    hyperparams => '{"n_clusters": 6}'::JSONB           -- hyperparameters as JSONB
 	search => 'grid', 
     search_params => '{
-        "n_clusters": [2,3,4,5,6,7,8,9,10]
+       "n_clusters": [2,3,4,5,6,7,8,9,10]
     }'    
 );
 
@@ -558,11 +572,11 @@ where b.persona_guid = 'D2E3F95DB94873ACE053898FBA25347A'
 order by slope_type
 
 
-select pgml.predict('slope_cluster', a.metric_data), 'suggested' from slope_valid a
-where a.pid in (select get_recommendations_ni ('811767B26C8824B4E053898FBA2534D5'))
+select pgml.predict('slope_cluster', a.metric_data) cluster, 'suggested' type, a.slope_type, a.difficulty, a.name, a.length, a.height_difference, a.duration from slope_valid a
+where a.pid in (select get_recommendations_ai_clustering ('3E0A2FFC26523737E0537D1DC7D9EDDD', not_skied_only=> false, usual_region => true))
 union all
-select pgml.predict('slope_cluster', a.metric_data), 'skied' from slope_valid a
-where a.pid in (select id from activity where persona_guid = '811767B26C8824B4E053898FBA2534D5')
+select pgml.predict('slope_cluster', a.metric_data) cluster, 'skied'  type, a.slope_type, a.difficulty, a.name, a.length, a.height_difference, a.duration from slope_valid a
+where a.pid in (select id from activity where persona_guid = '3E0A2FFC26523737E0537D1DC7D9EDDD')
 
 
 select * FROM pgml.train('slope_reduction', 'decomposition', 'pgml.slope_valid_cluster', hyperparams => '{"n_components": 2}');
@@ -573,8 +587,7 @@ select pgml.predict('slope_cluster', a.metric_data) cluster, pgml.decompose('slo
 select slope_type, count (*) from slope_valid a
 group by slope_type 
 
- select get_recommendations_ai_clustering ('3E0A2FFC26523737E0537D1DC7D9EDDD', usual_region => true;
- 
+
 select pid, name, slope_type, length, height_difference, duration, coord[1], x from (
 select *, rank () over (order by coord[1] desc) x from (
 select *, pgml.decompose('slope_reduction', a.metric_data::vector) coord from slope_valid a
@@ -587,3 +600,150 @@ select *, pgml.decompose('slope_reduction', a.metric_data::vector) coord from sl
 ) b) c
 where y <= 5
 
+
+select distinct cluster, avg (height_difference) over (partition by cluster) avg_height_difference from (
+select pgml.predict('slope_cluster', a.metric_data) cluster, a.* from slope_valid a) b
+order by cluster
+
+select distinct cluster
+	, avg (height_difference) over (partition by cluster) avg_height_difference 
+	, min (height_difference) over (partition by cluster) min_height_difference 
+	, max (height_difference) over (partition by cluster) max_height_difference 
+	from (
+select pgml.predict('slope_cluster', a.metric_data) cluster, a.* from slope_valid a) b
+order by cluster
+
+select distinct cluster
+	, avg (length) over (partition by cluster) avg_length 
+	, min (length) over (partition by cluster) min_length 
+	, max (length) over (partition by cluster) max_length 
+	from (
+select pgml.predict('slope_cluster', a.metric_data) cluster, a.* from slope_valid a) b
+order by cluster
+
+
+select distinct difficulty
+	, count (*) over (partition by difficulty) cnt_height_difference 
+	, avg (height_difference) over (partition by difficulty) avg_height_difference 
+	, min (height_difference) over (partition by difficulty) min_height_difference 
+	, max (height_difference) over (partition by difficulty) max_height_difference 
+	from (
+select a.* from slope_valid a) b
+order by difficulty;
+
+select * from slope_valid  where height_difference = 5
+
+select distinct difficulty
+	, avg (length) over (partition by difficulty) avg_length 
+	, min (length) over (partition by difficulty) min_length 
+	, max (length) over (partition by difficulty) max_length 
+	from (
+select a.* from slope_valid a) b
+order by difficulty
+
+select distinct cluster, slope_type, difficulty, count (*) over (partition by cluster, slope_type, difficulty) cnt from (
+select pgml.predict('slope_cluster', a.metric_data) cluster, a.* from slope_valid a) b
+order by cluster, slope_type, difficulty
+
+;
+
+select distinct d.pid from activity c 
+	join slope_valid d on c.id = d.pid
+	where c.persona_guid = '3E0A2FFC26523737E0537D1DC7D9EDDD' 
+	
+	
+ /* 
+ * 
+ * WEIGHTED CLUSTER 
+ */	
+with recursive data as (
+	select id, prob, row_number () over () row, count (*) over () tot from (
+	/* DATA */
+	(select 1 id, 0.3 prob, random () pos
+	union all
+	select 2 id, 0.6 prob, random () pos
+	union all
+	select 3 id, 0.1 prob, random () pos)
+	/* DATA */	
+	order by pos) a
+), weighted_data as (
+	select *, prob * weight cumulative from (select id, prob, row, random () weight from data where row = 1) a 
+	union all
+	select id, prob, row, weight, (cumulative + prob * weight) cumulative from (
+		select a.id, a.prob, a.row, random () weight, b.cumulative from data a join weighted_data b on a.row = b.row + 1
+	) c		
+), normalized_data as (
+	select id, prob, prob * weight weighted_prob from (select id, prob, weight / max weight, cumulative / max cumulative from (select *, max (cumulative) over () max from weighted_data) a) b
+), chosen_data as (
+select * from normalized_data order by weighted_prob desc
+limit 1)
+select * from chosen_data
+
+	
+CREATE OR REPLACE FUNCTION get_recommendations_ai_clustering(
+	guid text,
+    not_skied_only BOOLEAN default true,
+    usual_region BOOLEAN default false,    
+    num_recommendations INTEGER DEFAULT 3
+) RETURNS TABLE (
+    id INTEGER
+) AS $$
+BEGIN
+    RETURN QUERY
+	with recursive
+	all_slopes as (
+		SELECT 
+	    	a.*,
+		    pgml.predict('slope_cluster', a.metric_data) as cluster_id
+		FROM public.slope_valid a
+	),
+	cluster_data as (
+		select id, prob, row_number () over () row, count (*) over () tot from (
+		/* DATA */
+		 (
+		select cluster_id id, cluster_cnt::float / cnt prob, random () pos from (
+		select cluster_id, cluster_cnt, count (*) over () cnt from (
+		select cluster_id, count (*) cluster_cnt from (
+		SELECT c.pid, pgml.predict('slope_cluster', c.metric_data) as cluster_id	    
+		FROM activity b 
+			join slope_valid c on b.id = c.pid
+		where b.persona_guid = guid) a group by cluster_id) b) c
+		)
+		/* DATA */	
+		order by pos) d
+	), weighted_cluster_data as (
+		select *, prob * weight cumulative from (select id, prob, row, random () weight from cluster_data where row = 1) a 
+		union all
+		select id, prob, row, weight, (cumulative + prob * weight) cumulative from (
+			select a.id, a.prob, a.row, random () weight, b.cumulative from cluster_data a join weighted_cluster_data b on a.row = b.row + 1
+		) c		
+	), normalized_cluster_data as (
+		select id, prob, prob * weight weighted_prob from (select id, prob, weight / max weight, cumulative / max cumulative from (select *, max (cumulative) over () max from weighted_cluster_data) a) b
+	), skied_slopes as (
+		select id as cluster_id from normalized_cluster_data order by weighted_prob desc
+		limit 1
+	) select a.pid from all_slopes a
+	where a.cluster_id = (select distinct b.cluster_id from skied_slopes b)
+	and (not not_skied_only or a.pid not in (select d.pid from activity c 
+		join slope_valid d on c.id = d.pid))
+	and (not usual_region or a.region_id  = (select f.region_id from (
+		select e.region_id, e.cnt, max (e.cnt) over (partition by e.region_id) max_cnt from (
+		select d.region_id, count (*) cnt from slope_valid d
+		where d.pid in (select c.id from activity c where c.persona_guid = guid)
+		group by d.region_id) e) f
+		where f.cnt = f.max_cnt
+		limit 1))
+	ORDER BY RANDOM()  -- o ordina per una metrica di similarità
+	limit num_recommendations;
+end;
+$$ LANGUAGE plpgsql
+
+
+select get_recommendations_ai_clustering ('3E0A2FFC26523737E0537D1DC7D9EDDD', not_skied_only=> false, usual_region => true)
+
+
+select pgml.predict('slope_cluster', a.metric_data) cluster, 'suggested' type, a.slope_type, a.difficulty, a.name, a.length, a.height_difference, a.duration from slope_valid a
+where a.pid in (select get_recommendations_ai_clustering ('3E0A2FFC26523737E0537D1DC7D9EDDD', not_skied_only=> false, usual_region => true))
+union all
+select pgml.predict('slope_cluster', a.metric_data) cluster, 'skied'  type, a.slope_type, a.difficulty, a.name, a.length, a.height_difference, a.duration from slope_valid a
+where a.pid in (select id from activity where persona_guid = '3E0A2FFC26523737E0537D1DC7D9EDDD')
